@@ -26,6 +26,7 @@ dependencies = [
     "pytorch-lightning>=2.6.1",
     "scikit-learn>=1.8.0",
     "seaborn>=0.13.2",
+    "sentence-transformers>=5.4.1",
     "termcolor>=3.3.0",
     "tqdm>=4.67.3",
     "transformers>=5.5.4",
