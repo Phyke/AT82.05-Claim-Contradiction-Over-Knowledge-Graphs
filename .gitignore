@@ -2,6 +2,9 @@
 .claude
 progress-report
 
+# Fine-tuned model weights (too large for GitHub)
+fine-tuning/models/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
