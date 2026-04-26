@@ -177,8 +177,8 @@
     "Relation": 18,
     "Perspective/View/Opinion": 64,
     "Negation": 63,
-    "Causal": 9,
     "Factual": 33,
+    "Causal": 9,
     "Numeric": 57
   },
   "primitive_label_counts_sample": {
