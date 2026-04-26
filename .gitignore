@@ -4,11 +4,11 @@
 progress-report
 final-report
 
-# Fine-tuned model weights (too large for GitHub)
-fine-tuning/models/
+# Training intermediate checkpoints (regeneratable, huge)
+experiments/**/checkpoints/
 
-# Fine-tuned model weights (too large for GitHub)
-fine-tuning/models/
+# Old fine-tuning model dump location (now relocated under experiments/fine-tuning/)
+experiments/legacy/fine-tuning/models/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
