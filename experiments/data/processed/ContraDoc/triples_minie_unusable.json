@@ -1,0 +1,245 @@
+{
+  "count": 27,
+  "doc_ids": [
+    {
+      "doc_id": "3488771846_9",
+      "contra_type": "Content|Emotion/Mood/Feeling",
+      "ev_id": null,
+      "ref_ids": [],
+      "evidence_problem": "missing",
+      "ref_problem": "missing"
+    },
+    {
+      "doc_id": "3488771849_6",
+      "contra_type": "Content|Relation|Causal",
+      "ev_id": 12,
+      "ref_ids": [],
+      "evidence_problem": "ok",
+      "ref_problem": "missing"
+    },
+    {
+      "doc_id": "3488771897_3",
+      "contra_type": "Content|Perspective/View/Opinion|Emotion/Mood/Feeling",
+      "ev_id": 4,
+      "ref_ids": [],
+      "evidence_problem": "ok",
+      "ref_problem": "missing"
+    },
+    {
+      "doc_id": "3488771908_5",
+      "contra_type": "Relation",
+      "ev_id": null,
+      "ref_ids": [
+        6
+      ],
+      "evidence_problem": "missing",
+      "ref_problem": "ok"
+    },
+    {
+      "doc_id": "3489738228_5",
+      "contra_type": "Content|Numeric",
+      "ev_id": 23,
+      "ref_ids": [],
+      "evidence_problem": "ok",
+      "ref_problem": "missing"
+    },
+    {
+      "doc_id": "3489738250_5",
+      "contra_type": "Emotion/Mood/Feeling",
+      "ev_id": 14,
+      "ref_ids": [],
+      "evidence_problem": "ok",
+      "ref_problem": "missing"
+    },
+    {
+      "doc_id": "3489738278_5",
+      "contra_type": "Content|Factual",
+      "ev_id": null,
+      "ref_ids": [
+        18
+      ],
+      "evidence_problem": "missing",
+      "ref_problem": "ok"
+    },
+    {
+      "doc_id": "3489738278_6",
+      "contra_type": "Factual|Negation",
+      "ev_id": null,
+      "ref_ids": [
+        22
+      ],
+      "evidence_problem": "missing",
+      "ref_problem": "ok"
+    },
+    {
+      "doc_id": "3489738281_8",
+      "contra_type": "Emotion/Mood/Feeling",
+      "ev_id": 74,
+      "ref_ids": [],
+      "evidence_problem": "ok",
+      "ref_problem": "missing"
+    },
+    {
+      "doc_id": "3489738297_4",
+      "contra_type": "Content|Factual",
+      "ev_id": null,
+      "ref_ids": [
+        32
+      ],
+      "evidence_problem": "missing",
+      "ref_problem": "ok"
+    },
+    {
+      "doc_id": "3489738298_10",
+      "contra_type": "Emotion/Mood/Feeling",
+      "ev_id": 53,
+      "ref_ids": [],
+      "evidence_problem": "ok",
+      "ref_problem": "missing"
+    },
+    {
+      "doc_id": "3503017444_3",
+      "contra_type": "Factual|Content|Negation",
+      "ev_id": null,
+      "ref_ids": [
+        8
+      ],
+      "evidence_problem": "missing",
+      "ref_problem": "ok"
+    },
+    {
+      "doc_id": "3503017454_2",
+      "contra_type": "Content|Factual",
+      "ev_id": null,
+      "ref_ids": [
+        11
+      ],
+      "evidence_problem": "missing",
+      "ref_problem": "ok"
+    },
+    {
+      "doc_id": "3503017462_4",
+      "contra_type": "Relation",
+      "ev_id": null,
+      "ref_ids": [
+        17
+      ],
+      "evidence_problem": "missing",
+      "ref_problem": "ok"
+    },
+    {
+      "doc_id": "3503017483_7",
+      "contra_type": "Emotion/Mood/Feeling",
+      "ev_id": 33,
+      "ref_ids": [],
+      "evidence_problem": "ok",
+      "ref_problem": "missing"
+    },
+    {
+      "doc_id": "3488771837_3",
+      "contra_type": "Perspective/View/Opinion|Negation",
+      "ev_id": null,
+      "ref_ids": [
+        16
+      ],
+      "evidence_problem": "missing",
+      "ref_problem": "ok"
+    },
+    {
+      "doc_id": "3488771849_1",
+      "contra_type": "Content|Relation",
+      "ev_id": 3,
+      "ref_ids": [],
+      "evidence_problem": "ok",
+      "ref_problem": "missing"
+    },
+    {
+      "doc_id": "3488771860_4",
+      "contra_type": "Perspective/View/Opinion|Emotion/Mood/Feeling",
+      "ev_id": 7,
+      "ref_ids": [],
+      "evidence_problem": "ok",
+      "ref_problem": "missing"
+    },
+    {
+      "doc_id": "3488771889_4",
+      "contra_type": "Content|Factual",
+      "ev_id": 14,
+      "ref_ids": [],
+      "evidence_problem": "ok",
+      "ref_problem": "missing"
+    },
+    {
+      "doc_id": "3489738227_3",
+      "contra_type": "Content|Numeric",
+      "ev_id": null,
+      "ref_ids": [
+        9
+      ],
+      "evidence_problem": "missing",
+      "ref_problem": "ok"
+    },
+    {
+      "doc_id": "3489738279_7",
+      "contra_type": "Content|Negation",
+      "ev_id": 19,
+      "ref_ids": [],
+      "evidence_problem": "ok",
+      "ref_problem": "missing"
+    },
+    {
+      "doc_id": "3489825747_6",
+      "contra_type": "Content|Numeric",
+      "ev_id": 17,
+      "ref_ids": [],
+      "evidence_problem": "ok",
+      "ref_problem": "missing"
+    },
+    {
+      "doc_id": "3489825758_1",
+      "contra_type": "Negation|Causal",
+      "ev_id": 48,
+      "ref_ids": [],
+      "evidence_problem": "ok",
+      "ref_problem": "missing"
+    },
+    {
+      "doc_id": "3499318689_1",
+      "contra_type": "Content|Numeric",
+      "ev_id": null,
+      "ref_ids": [
+        1
+      ],
+      "evidence_problem": "missing",
+      "ref_problem": "ok"
+    },
+    {
+      "doc_id": "3502252175_6",
+      "contra_type": "Perspective/View/Opinion|Emotion/Mood/Feeling",
+      "ev_id": null,
+      "ref_ids": [
+        53
+      ],
+      "evidence_problem": "missing",
+      "ref_problem": "ok"
+    },
+    {
+      "doc_id": "3503017441_6",
+      "contra_type": "Factual|Content|Numeric|Negation",
+      "ev_id": 18,
+      "ref_ids": [],
+      "evidence_problem": "ok",
+      "ref_problem": "missing"
+    },
+    {
+      "doc_id": "3503017497_4",
+      "contra_type": "Content|Perspective/View/Opinion|Emotion/Mood/Feeling",
+      "ev_id": null,
+      "ref_ids": [
+        75
+      ],
+      "evidence_problem": "missing",
+      "ref_problem": "ok"
+    }
+  ]
+}

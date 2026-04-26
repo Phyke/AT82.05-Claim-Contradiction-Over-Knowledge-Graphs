@@ -1,22 +1,36 @@
-# 02b MinIE Extraction Pilot - Debug Notes
+# 02b MinIE Extraction - Debug Notes
 
-10-doc pilot run on `experiments/02b_triples_extraction_minie_style.ipynb` using `claude-opus-4-7` against the balanced ContraDoc YES sample. Five distinct issues surfaced and were fixed. This file captures root cause + fix for each so the full 150-doc run does not rediscover them.
+Pilot then full run on `experiments/02b_triples_extraction_minie_style.ipynb` using `claude-opus-4-7` against the balanced ContraDoc YES sample (150 docs). Five debugging issues surfaced during the pilot and were fixed. This file captures root cause + fix for each, plus the final 150-doc run results.
 
-## Final pilot result
+## Final 150-doc result (high effort, default)
+
+| Metric | Value |
+|---|---|
+| Docs extracted | 150 / 150 |
+| Sentences | 5,651 (avg 37.7 / doc) |
+| Triples | 9,189 (avg 61.3 / doc) |
+| Evidence resolution | 134 `llm_tag` (89.3%), 3 fuzzy fallback, **13 unmatched (8.7%)** |
+| Reference resolution | 136 `llm_tag` (90.7%), 4 fuzzy fallback, **26 unmatched (17.3%)** |
+| **Gold-pair usability for downstream NLI** | **123 / 150 (82%)** |
+| Token overlap (hallucination heuristic) | mean 88.1%, median 100%, >=80% on 76.7% |
+| MinIE annotation rates | polarity '-' 5.4%, modality 'PS' 5.5%, attribution 13.4%, quantity 6.3% |
+| Recorded cost | $23.82 (+ ~$0.50 untracked retry calls) = **~$24.30 total** |
+| Per-doc wall time | ~30-60 s (avg ~45 s); full run ~2 h |
+| Transient parse failures | ~1-3% required retries; one doc needed 8 attempts |
+
+The 27 docs that didn't produce a usable `(evidence_triples, ref_triples)` pair are listed in `experiments/data/processed/ContraDoc/triples_minie_unusable.json`. Failure modes: 13 docs the LLM didn't tag any sentence as `is_evidence`, the rest are residual sentence bundling that the strict prompt didn't fully prevent (line breaks / run-on punctuation in the source). Decision: accept and proceed; downstream NLI pair builder will skip these.
+
+## Pilot result (10 docs - reference for prompt iteration)
 
 | Metric | Value |
 |---|---|
 | Docs extracted | 10 / 10 |
-| Sentences | 308 (avg 30.8 / doc) |
-| Triples | 584 (avg 58.4 / doc) |
-| Evidence gold-pair resolution | 10 / 10 `llm_tag` (clean) |
-| Reference gold-pair resolution | 10 / 10 `llm_tag` |
-| Triple-to-source token overlap | mean 89.5%, median 100%, >=80% on 79.1% of triples |
-| MinIE annotation rates | polarity '-' 4.3%, modality 'PS' 5.1%, attribution 7.2%, quantity 3.3% |
-| Recorded cost | $1.36 (+ ~$0.30 untracked retry calls) |
-| Per-doc wall time | ~30-60 s (avg ~45 s) |
+| Sentences | 308 (avg 30.8) |
+| Triples | 584 (avg 58.4) |
+| Evidence + ref resolution | 10 / 10 `llm_tag` |
+| Recorded cost | $1.36 (+ ~$0.30 untracked retries) |
 
-Extrapolation to 150 docs: ~$25, ~2 hours serial, expect 1-2 transient parse failures that retries will recover.
+The 100% pilot success on resolution did not extrapolate cleanly to 150 - the larger sample exposed an ~9% bundling residual that 10 docs missed.
 
 ## Issues and fixes
 
@@ -86,19 +100,40 @@ RuntimeError: Structured-output parsing returned None (stop_reason=tool_use).
 
 `stop_reason=tool_use` means the LLM completed a tool call - the API call itself succeeded (we still pay for the tokens) but langchain could not parse the tool-call args. A standalone debug script issuing the same call with the same prompt then *succeeded* on the first try.
 
-Conclusion: this failure mode is **flaky**, not deterministic. Likely an interaction between the long system prompt, structured-output parsing, and Opus 4.7. A clean retry recovers.
+Conclusion: this failure mode is **flaky**, not deterministic. Likely an interaction between the long system prompt, structured-output parsing, and Opus 4.7. Retries recover.
 
-**Fix in `cell-5` `extract_document`:** raise `RuntimeError` on `parsed=None` so the existing `try / except` in the fullrun loop logs `FAILED doc_id=...` and continues.
+**Initial fix:** raise `RuntimeError` on `parsed=None` so the loop's `try / except` logs `FAILED doc_id=...` and continues. Single attempt per doc.
+
+**Better fix (now in `cell-5`):** retry up to 3 times inside `extract_document` with a 2-second sleep between attempts. The pilot's "deterministic" failure was actually flaky - retries recover most cases. Without this, the sanity cell at the top of the notebook crashes the whole run on its first parse failure.
 
 ```python
-parsed = out["parsed"]
-if parsed is None:
-    stop_reason = getattr(out["raw"], "response_metadata", {}).get("stop_reason")
-    raise RuntimeError(f"Structured-output parsing returned None (stop_reason={stop_reason}).")
-return parsed, usage_from_raw(out["raw"], LLM_MODEL)
+EXTRACT_MAX_RETRIES = 3
+
+def extract_document(text, evidence=None, refs=None, max_retries=EXTRACT_MAX_RETRIES):
+    ...
+    last_stop_reason = None
+    for attempt in range(1, max_retries + 1):
+        out = extractor.invoke([...])
+        parsed = out["parsed"]
+        if parsed is not None:
+            return parsed, usage_from_raw(out["raw"], LLM_MODEL)
+        last_stop_reason = getattr(out["raw"], "response_metadata", {}).get("stop_reason")
+        if attempt < max_retries:
+            _time.sleep(2)
+    raise RuntimeError(f"... after {max_retries} attempts (last stop_reason={last_stop_reason}).")
 ```
 
-For the full 150-doc run this means transient parse failures will be skipped, logged with `FAILED ...`, and can be picked up on a re-run (resume logic skips already-done docs). Built a small recovery script that retries a single doc up to 3 times - all observed failures recovered on attempt 1 of the retry.
+In the 150-doc run, this caught most flakiness automatically. **One doc (`3489738254_8`) still failed after 3 retries.** Recovery: run the standalone script with up to 5 retries - it succeeded on attempt 5 (8 total attempts including the original 3).
+
+For very stubborn docs, recovery snippet:
+
+```python
+for attempt in range(1, 6):
+    out = extractor.invoke([{"role": "system", "content": SYSTEM}, {"role": "user", "content": user_msg}])
+    if out["parsed"] is not None:
+        break
+    time.sleep(3)
+```
 
 ### 5. Windows cp1252 default codec breaks `jupyter execute`
 
@@ -130,15 +165,22 @@ For the full 150-doc run this is moot - `CHUNK_SIZE = None` or any value `>=` re
 
 **Workaround:** when editing cells programmatically after a run, either (a) find the cell by content match, or (b) restore IDs after `nbclient` execution.
 
-## How to launch the full 150-doc run
+## How to launch the full 150-doc run (already done, kept for reproducibility)
 
 1. Confirm `experiments/02b_triples_extraction_minie_style.ipynb` cell `fullrun` has `CHUNK_SIZE = None` (or set explicitly to the size you want).
 2. Run from `experiments/`:
    ```bash
-   PYTHONUTF8=1 uv run --no-sync jupyter execute --inplace --timeout=10800 02b_triples_extraction_minie_style.ipynb
+   PYTHONUTF8=1 uv run --no-sync jupyter execute --inplace --timeout=14400 02b_triples_extraction_minie_style.ipynb
    ```
-   (`--timeout=10800` = 3 hours per cell, generous.)
-3. Resume logic skips the 10 docs already done. The chunked structure prints cumulative spend after each doc and supports interrupt + resume.
-4. After the run, eyeball any `FAILED doc_id=...` lines in the output and re-run with `CHUNK_SIZE=1` per failed doc, or use the recovery snippet pattern (3 retries with 2 s backoff).
+   (`--timeout=14400` = 4 hours per cell, generous.)
+3. Resume logic skips already-done docs. After the run, identify any missing doc_ids by comparing `data/processed/ContraDoc/triples_minie.jsonl` against `balanced_sample.json["doc_ids"]`. For each missing doc, run the recovery snippet with up to 5 retries.
 
-Expect roughly $25 spend, ~2 h wall, 1-2 transient retries.
+Actual outcome (April 2026): 149 / 150 docs done in the main run, 1 doc recovered via standalone retry script. Total ~$24, ~2 hours wall.
+
+## Known limitations of the final extraction
+
+- **27 / 150 docs (18%) lack a usable gold pair.** List + failure modes in `experiments/data/processed/ContraDoc/triples_minie_unusable.json`. Two failure modes:
+  1. LLM did not tag any sentence as `is_evidence=true` (13 docs).
+  2. Sentence bundling - LLM glued the gold sentence with neighbors, breaking fuzzy match.
+- The downstream NLI pair builder should skip these docs (or use them as YES-only without contradiction pairs). Retrieval can still ingest their triples - the gold pair is the only thing missing.
+- If thesis evaluation later flags this as material, two recovery paths: (a) re-extract with a pre-segmentation step (run a sentence splitter, feed numbered sentences to the LLM), or (b) add a "second-pass" prompt that just asks the LLM to identify `is_evidence` on the existing chunks.
