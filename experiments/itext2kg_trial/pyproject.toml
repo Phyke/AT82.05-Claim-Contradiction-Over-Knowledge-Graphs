@@ -1,0 +1,13 @@
+[project]
+name = "itext2kg-trial"
+version = "0.1.0"
+description = "Isolated venv for trying iText2KG against ContraDoc"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "itext2kg>=1.0.0",
+    "langchain-openai<2.0.0",
+    "langchain-huggingface>=0.1.0",
+    "sentence-transformers>=5.0.0",
+    "python-dotenv>=1.0.0",
+    "spacy>=3.7",
+]

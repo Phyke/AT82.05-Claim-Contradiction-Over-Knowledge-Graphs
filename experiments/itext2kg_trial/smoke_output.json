@@ -1,0 +1,4388 @@
+{
+  "doc_id": "3499318673_1",
+  "n_sentences": 71,
+  "per_sentence": [
+    {
+      "sentence_id": 1,
+      "source_text": "= Little Gidding ( poem ) =",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "is_a",
+          "o": "poem",
+          "o_label": "Work"
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "source_text": "Little Gidding is the fourth and final poem of T. S. Eliot 's Four Quartets , a series of poems that discuss time , perspective , humanity , and salvation.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "is_fourth_and_final_poem_of",
+          "o": "four quartets",
+          "o_label": "Poem_Series"
+        },
+        {
+          "s": "four quartets",
+          "s_label": "Poem_Series",
+          "p": "discusses",
+          "o": "humanity",
+          "o_label": "Theme"
+        },
+        {
+          "s": "four quartets",
+          "s_label": "Poem_Series",
+          "p": "discusses",
+          "o": "perspective",
+          "o_label": "Theme"
+        },
+        {
+          "s": "four quartets",
+          "s_label": "Poem_Series",
+          "p": "discusses",
+          "o": "salvation",
+          "o_label": "Theme"
+        },
+        {
+          "s": "four quartets",
+          "s_label": "Poem_Series",
+          "p": "is_by",
+          "o": "t. s. eliot",
+          "o_label": "Person"
+        },
+        {
+          "s": "four quartets",
+          "s_label": "Poem_Series",
+          "p": "discusses",
+          "o": "time",
+          "o_label": "Theme"
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "source_text": "It was first published in September 1942 after being delayed for over a year because of the air - raids on Great Britain during World War II and Eliot 's declining health.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "air raids on great britain during world war ii",
+          "s_label": "Event",
+          "p": "occurred_during",
+          "o": "world war ii",
+          "o_label": "Event"
+        },
+        {
+          "s": "it",
+          "s_label": "Work",
+          "p": "was_first_published_in",
+          "o": "september 1942",
+          "o_label": "Time"
+        },
+        {
+          "s": "delay for over a year",
+          "s_label": "Event",
+          "p": "caused_by",
+          "o": "eliot's declining health",
+          "o_label": "Health"
+        },
+        {
+          "s": "it",
+          "s_label": "Work",
+          "p": "was_delayed_by",
+          "o": "delay for over a year",
+          "o_label": "Event"
+        },
+        {
+          "s": "delay for over a year",
+          "s_label": "Event",
+          "p": "caused_by",
+          "o": "air raids on great britain during world war ii",
+          "o_label": "Event"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "experienced",
+          "o": "declining health",
+          "o_label": "Health"
+        },
+        {
+          "s": "air raids on great britain during world war ii",
+          "s_label": "Event",
+          "p": "occurred_in",
+          "o": "great britain",
+          "o_label": "Location"
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "source_text": "The title refers to a small Anglican community in Huntingdonshire , established by Nicholas Ferrar in the 17th century and scattered during the English Civil War.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "small anglican community",
+          "s_label": "Community",
+          "p": "established_by",
+          "o": "nicholas ferrar",
+          "o_label": "Person"
+        },
+        {
+          "s": "small anglican community",
+          "s_label": "Community",
+          "p": "scattered_during",
+          "o": "english civil war",
+          "o_label": "Event"
+        },
+        {
+          "s": "small anglican community",
+          "s_label": "Community",
+          "p": "established_in",
+          "o": "17th century",
+          "o_label": "Century"
+        },
+        {
+          "s": "the title",
+          "s_label": "Title",
+          "p": "refers_to",
+          "o": "small anglican community",
+          "o_label": "Community"
+        },
+        {
+          "s": "small anglican community",
+          "s_label": "Community",
+          "p": "located_in",
+          "o": "huntingdonshire",
+          "o_label": "Location"
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "source_text": "The poem uses the combined image of fire and Pentecostal fire to emphasise the need for purification and purgation.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "pentecostal fire",
+          "s_label": "Image",
+          "p": "symbolizes",
+          "o": "purification and purgation",
+          "o_label": "Concept"
+        },
+        {
+          "s": "poem",
+          "s_label": "Work",
+          "p": "uses",
+          "o": "combined image of fire and pentecostal fire",
+          "o_label": "Image"
+        },
+        {
+          "s": "fire",
+          "s_label": "Image",
+          "p": "symbolizes",
+          "o": "purification and purgation",
+          "o_label": "Concept"
+        },
+        {
+          "s": "combined image of fire and pentecostal fire",
+          "s_label": "Image",
+          "p": "emphasises_need_for",
+          "o": "purification and purgation",
+          "o_label": "Concept"
+        }
+      ]
+    },
+    {
+      "sentence_id": 6,
+      "source_text": "According to the poet , humanity 's flawed understanding of life and turning away from God leads to a cycle of warfare , but this can be overcome by recognising the lessons of the past.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "the poet",
+          "s_label": "Person",
+          "p": "describes",
+          "o": "turning away from god",
+          "o_label": "Concept"
+        },
+        {
+          "s": "turning away from god",
+          "s_label": "Concept",
+          "p": "leads_to",
+          "o": "cycle of warfare",
+          "o_label": "Concept"
+        },
+        {
+          "s": "the poet",
+          "s_label": "Person",
+          "p": "advocates",
+          "o": "recognising the lessons of the past",
+          "o_label": "Concept"
+        },
+        {
+          "s": "recognising the lessons of the past",
+          "s_label": "Concept",
+          "p": "overcomes",
+          "o": "cycle of warfare",
+          "o_label": "Concept"
+        },
+        {
+          "s": "humanity's flawed understanding of life",
+          "s_label": "Concept",
+          "p": "leads_to",
+          "o": "cycle of warfare",
+          "o_label": "Concept"
+        },
+        {
+          "s": "the poet",
+          "s_label": "Person",
+          "p": "describes",
+          "o": "humanity's flawed understanding of life",
+          "o_label": "Concept"
+        }
+      ]
+    },
+    {
+      "sentence_id": 7,
+      "source_text": "Within the poem , the narrator meets a ghost that is a combination of various poets and literary figures.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "narrator",
+          "s_label": "Person",
+          "p": "meets",
+          "o": "ghost",
+          "o_label": "Entity"
+        },
+        {
+          "s": "ghost",
+          "s_label": "Entity",
+          "p": "is_combination_of",
+          "o": "various poets and literary figures",
+          "o_label": "Group"
+        }
+      ]
+    },
+    {
+      "sentence_id": 8,
+      "source_text": "Little Gidding focuses on the unity of past , present , and future , and claims that understanding this unity is necessary for salvation.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "understanding this unity",
+          "s_label": "Concept",
+          "p": "is_necessary_for",
+          "o": "salvation",
+          "o_label": "Theme"
+        },
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "focuses_on",
+          "o": "unity of past, present, and future",
+          "o_label": "Concept"
+        },
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "claims_is_necessary_for",
+          "o": "understanding this unity",
+          "o_label": "Concept"
+        }
+      ]
+    },
+    {
+      "sentence_id": 9,
+      "source_text": "= = Background = =",
+      "triples": [],
+      "status": "failed"
+    },
+    {
+      "sentence_id": 10,
+      "source_text": "Following the completion of the third Four Quartets poem , The Dry Salvages , Eliot 's health declined and he stayed in Shamley Green , Surrey while he recovered.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "was_recovering",
+          "o": "recovered",
+          "o_label": "RecoveryState"
+        },
+        {
+          "s": "the dry salvages",
+          "s_label": "Work",
+          "p": "is_fourth_and_final_poem_of",
+          "o": "third four quartets poem",
+          "o_label": "Work"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "stayed_in",
+          "o": "shamley green, surrey",
+          "o_label": "Location"
+        }
+      ]
+    },
+    {
+      "sentence_id": 11,
+      "source_text": "During this time , Eliot started writing Little Gidding.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "started_writing",
+          "o": "little gidding",
+          "o_label": "Poem"
+        }
+      ]
+    },
+    {
+      "sentence_id": 12,
+      "source_text": "The first draft was completed in July 1941 but he was dissatisfied with it.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "he",
+          "s_label": "Person",
+          "p": "was_dissatisfied_with",
+          "o": "first draft",
+          "o_label": "Draft"
+        },
+        {
+          "s": "first draft",
+          "s_label": "Draft",
+          "p": "completed_in",
+          "o": "july 1941",
+          "o_label": "Date"
+        }
+      ]
+    },
+    {
+      "sentence_id": 13,
+      "source_text": "He believed the problems with the poem lay with his own inability to write , and that , precipitated by air raids on London , he had started the poem with too little preparation and had written it too quickly.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "he",
+          "s_label": "Person",
+          "p": "had",
+          "o": "too little preparation",
+          "o_label": "Preparation"
+        },
+        {
+          "s": "he",
+          "s_label": "Person",
+          "p": "started",
+          "o": "starting the poem",
+          "o_label": "Event"
+        },
+        {
+          "s": "he",
+          "s_label": "Person",
+          "p": "believed_lay_with",
+          "o": "the problems with the poem",
+          "o_label": "Problem"
+        },
+        {
+          "s": "the problems with the poem",
+          "s_label": "Problem",
+          "p": "stemmed_from",
+          "o": "his own inability to write",
+          "o_label": "Ability"
+        },
+        {
+          "s": "air raids on great britain during world war ii",
+          "s_label": "Event",
+          "p": "precipitated",
+          "o": "starting the poem",
+          "o_label": "Event"
+        },
+        {
+          "s": "he",
+          "s_label": "Person",
+          "p": "had",
+          "o": "writing it too quickly",
+          "o_label": "Writing"
+        }
+      ]
+    },
+    {
+      "sentence_id": 14,
+      "source_text": "After the first draft was written , he set the poem aside , and he left in September to lecture throughout Great Britain.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "he",
+          "s_label": "Person",
+          "p": "lectured_throughout",
+          "o": "great britain",
+          "o_label": "Location"
+        },
+        {
+          "s": "he",
+          "s_label": "Person",
+          "p": "left_in",
+          "o": "september 1942",
+          "o_label": "Time"
+        },
+        {
+          "s": "he",
+          "s_label": "Person",
+          "p": "set_aside",
+          "o": "poem",
+          "o_label": "Work"
+        },
+        {
+          "s": "first draft was written",
+          "s_label": "Event",
+          "p": "preceded",
+          "o": "poem",
+          "o_label": "Work"
+        }
+      ]
+    },
+    {
+      "sentence_id": 15,
+      "source_text": "After months of not working on the poem , Eliot began to feel compelled to finish it ; it was not until August 1942 , however , that he started working on it again.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "started_working_again_in",
+          "o": "september 1942",
+          "o_label": "Time"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "wanted_to_finish",
+          "o": "starting the poem",
+          "o_label": "Event"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "began_to_feel_compelled_to",
+          "o": "feel compelled to finish it",
+          "o_label": "Relationship"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "was_not_working_on",
+          "o": "starting the poem",
+          "o_label": "Event"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "started_working_on_again",
+          "o": "starting the poem",
+          "o_label": "Event"
+        }
+      ]
+    },
+    {
+      "sentence_id": 16,
+      "source_text": "In total , there were five drafts.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "five",
+          "s_label": "Quantity",
+          "p": "counts",
+          "o": "drafts",
+          "o_label": "Entity"
+        }
+      ]
+    },
+    {
+      "sentence_id": 17,
+      "source_text": "The poem was finished by 19 September 1942 and published in the October New English Weekly.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "poem",
+          "s_label": "Work",
+          "p": "finished_by",
+          "o": "july 1941",
+          "o_label": "Date"
+        },
+        {
+          "s": "poem",
+          "s_label": "Work",
+          "p": "was_first_published_in",
+          "o": "october new english weekly",
+          "o_label": "Publication"
+        }
+      ]
+    },
+    {
+      "sentence_id": 18,
+      "source_text": "Little Gidding was intended to conclude the Four Quartets series , summarising Eliot 's views expressed in this series of poems.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "summarises",
+          "o": "eliot's views",
+          "o_label": "Viewpoint"
+        },
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "intended_to_conclude",
+          "o": "four quartets",
+          "o_label": "Poem_Series"
+        },
+        {
+          "s": "four quartets",
+          "s_label": "Poem_Series",
+          "p": "expresses",
+          "o": "eliot's views",
+          "o_label": "Viewpoint"
+        }
+      ]
+    },
+    {
+      "sentence_id": 19,
+      "source_text": "Little Gidding was the home of an Anglican community established in 1626 by Nicholas Ferrar.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "was_home_of",
+          "o": "small anglican community",
+          "o_label": "Community"
+        },
+        {
+          "s": "small anglican community",
+          "s_label": "Community",
+          "p": "established_in",
+          "o": "1626",
+          "o_label": "Date"
+        }
+      ]
+    },
+    {
+      "sentence_id": 20,
+      "source_text": "The Ferrar household lived a Christian life according to High Church principles and the Book of Common Prayer.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "the ferrar household",
+          "s_label": "Household",
+          "p": "lived",
+          "o": "christian life",
+          "o_label": "Religion"
+        },
+        {
+          "s": "the ferrar household",
+          "s_label": "Household",
+          "p": "used",
+          "o": "the book of common prayer",
+          "o_label": "Book"
+        },
+        {
+          "s": "the ferrar household",
+          "s_label": "Household",
+          "p": "followed",
+          "o": "high church principles",
+          "o_label": "Principle"
+        }
+      ]
+    },
+    {
+      "sentence_id": 21,
+      "source_text": "The religious community was dispersed during the English Civil War between Parliamentarians and Royalists but reformed , ending with the death of John Ferrar in 1657.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "small anglican community",
+          "s_label": "Community",
+          "p": "was_dispersed_during",
+          "o": "english civil war",
+          "o_label": "Event"
+        },
+        {
+          "s": "religious community",
+          "s_label": "ReligiousCommunity",
+          "p": "was_reformed_after",
+          "o": "reformed",
+          "o_label": "Event"
+        },
+        {
+          "s": "english civil war",
+          "s_label": "Event",
+          "p": "involved",
+          "o": "parliamentarians and royalists",
+          "o_label": "Group"
+        },
+        {
+          "s": "nicholas ferrar",
+          "s_label": "Person",
+          "p": "died_in",
+          "o": "1657",
+          "o_label": "Date"
+        },
+        {
+          "s": "religious community",
+          "s_label": "ReligiousCommunity",
+          "p": "ended_with_death_of",
+          "o": "nicholas ferrar",
+          "o_label": "Person"
+        }
+      ]
+    },
+    {
+      "sentence_id": 22,
+      "source_text": "Eliot had visited the site in May 1936.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "visited_in_time",
+          "o": "september 1942",
+          "o_label": "Time"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "visited",
+          "o": "the site",
+          "o_label": "Location"
+        }
+      ]
+    },
+    {
+      "sentence_id": 23,
+      "source_text": "Unlike the other locations mentioned in the titles of the Four Quartets poems , Eliot had no direct connection to the original Christian community.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "third four quartets poem",
+          "s_label": "Work",
+          "p": "mention_location_of",
+          "o": "the original christian community",
+          "o_label": "Location"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "had_no_direct_connection_to",
+          "o": "the original christian community",
+          "o_label": "Location"
+        }
+      ]
+    },
+    {
+      "sentence_id": 24,
+      "source_text": "As such , the community is supposed to represent almost any religious community.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "the community",
+          "s_label": "Community",
+          "p": "represent",
+          "o": "religious community",
+          "o_label": "ReligiousCommunity"
+        }
+      ]
+    },
+    {
+      "sentence_id": 25,
+      "source_text": "= = Poem = =",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "poem",
+          "s_label": "Work",
+          "p": "is_delimited_by",
+          "o": "= =",
+          "o_label": "Marker"
+        }
+      ]
+    },
+    {
+      "sentence_id": 26,
+      "source_text": "Critics classify Little Gidding as a poem of fire with an emphasis on purgation and the Pentecostal fire.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "critics",
+          "s_label": "Critics",
+          "p": "classify_as",
+          "o": "little gidding",
+          "o_label": "Poem"
+        },
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "emphasizes",
+          "o": "fire",
+          "o_label": "Image"
+        },
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "emphasizes",
+          "o": "pentecostal fire",
+          "o_label": "Image"
+        },
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "emphasizes",
+          "o": "purification and purgation",
+          "o_label": "Concept"
+        }
+      ]
+    },
+    {
+      "sentence_id": 27,
+      "source_text": "The beginning of the poem discusses time and winter , with attention paid to the arrival of summer.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "winter",
+          "s_label": "Concept",
+          "p": "gives_attention_to_arrival_of",
+          "o": "summer",
+          "o_label": "Concept"
+        },
+        {
+          "s": "starting the poem",
+          "s_label": "Event",
+          "p": "discusses",
+          "o": "time",
+          "o_label": "Theme"
+        },
+        {
+          "s": "starting the poem",
+          "s_label": "Event",
+          "p": "discusses",
+          "o": "winter",
+          "o_label": "Concept"
+        },
+        {
+          "s": "starting the poem",
+          "s_label": "Event",
+          "p": "mentions",
+          "o": "summer",
+          "o_label": "Concept"
+        }
+      ]
+    },
+    {
+      "sentence_id": 28,
+      "source_text": "The images of snow , which provoke desires for a spiritual life , transition into an analysis of the four classical elements of fire , earth , air and water and how fire is the primary element of the four.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "fire",
+          "s_label": "Image",
+          "p": "is_primary_element_of",
+          "o": "four classical elements",
+          "o_label": "Element"
+        },
+        {
+          "s": "analysis of the four classical elements",
+          "s_label": "Analysis",
+          "p": "analyzes",
+          "o": "water",
+          "o_label": "Element"
+        },
+        {
+          "s": "snow",
+          "s_label": "Image",
+          "p": "transitions_into",
+          "o": "analysis of the four classical elements",
+          "o_label": "Analysis"
+        },
+        {
+          "s": "snow",
+          "s_label": "Image",
+          "p": "provokes_desire_for",
+          "o": "spiritual life",
+          "o_label": "Desire"
+        },
+        {
+          "s": "analysis of the four classical elements",
+          "s_label": "Analysis",
+          "p": "analyzes",
+          "o": "air",
+          "o_label": "Element"
+        },
+        {
+          "s": "analysis of the four classical elements",
+          "s_label": "Analysis",
+          "p": "analyzes",
+          "o": "fire",
+          "o_label": "Image"
+        },
+        {
+          "s": "analysis of the four classical elements",
+          "s_label": "Analysis",
+          "p": "analyzes",
+          "o": "earth",
+          "o_label": "Element"
+        }
+      ]
+    },
+    {
+      "sentence_id": 29,
+      "source_text": "Following this is a discussion on death and destruction , things unaccomplished , and regret for past events.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "discussion",
+          "s_label": "Topic",
+          "p": "is_about",
+          "o": "death and destruction",
+          "o_label": "Concept"
+        },
+        {
+          "s": "discussion",
+          "s_label": "Topic",
+          "p": "is_about",
+          "o": "things unaccomplished",
+          "o_label": "Concept"
+        },
+        {
+          "s": "discussion",
+          "s_label": "Topic",
+          "p": "is_about",
+          "o": "regret for past events",
+          "o_label": "Emotion"
+        },
+        {
+          "s": "regret for past events",
+          "s_label": "Concept",
+          "p": "concerns",
+          "o": "past events",
+          "o_label": "Concept"
+        }
+      ]
+    },
+    {
+      "sentence_id": 30,
+      "source_text": "While using Dante 's terza rima style , the poem continues by describing the Battle of Britain.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "poem",
+          "s_label": "Work",
+          "p": "describes",
+          "o": "english civil war",
+          "o_label": "Event"
+        },
+        {
+          "s": "dante's terza rima style",
+          "s_label": "Style",
+          "p": "is_used_in",
+          "o": "poem",
+          "o_label": "Work"
+        }
+      ]
+    },
+    {
+      "sentence_id": 31,
+      "source_text": "The image of warfare merges with the depiction of Pentecost , and the Holy Spirit is juxtaposed with the air - raids on London.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "cycle of warfare",
+          "s_label": "Concept",
+          "p": "merges_with",
+          "o": "depiction of pentecost",
+          "o_label": "Concept"
+        },
+        {
+          "s": "holy spirit",
+          "s_label": "Concept",
+          "p": "juxtaposed_with",
+          "o": "air raids on london",
+          "o_label": "Concept"
+        }
+      ]
+    },
+    {
+      "sentence_id": 32,
+      "source_text": "In the second section , a ghost , representing the poets of the past stuck between worlds , begins talking to the narrator of the poem.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "ghost",
+          "s_label": "Entity",
+          "p": "is_stuck_between",
+          "o": "between worlds",
+          "o_label": "Worlds"
+        },
+        {
+          "s": "ghost",
+          "s_label": "Entity",
+          "p": "begins_talking_to",
+          "o": "the narrator of the poem",
+          "o_label": "Narrator"
+        },
+        {
+          "s": "ghost",
+          "s_label": "Entity",
+          "p": "represent",
+          "o": "the poets of the past",
+          "o_label": "Poets"
+        }
+      ]
+    },
+    {
+      "sentence_id": 33,
+      "source_text": "The ghost discusses change , art in general , and how humankind is flawed.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "ghost",
+          "s_label": "Entity",
+          "p": "discusses",
+          "o": "change",
+          "o_label": "Concept"
+        },
+        {
+          "s": "ghost",
+          "s_label": "Entity",
+          "p": "discusses",
+          "o": "art in general",
+          "o_label": "Concept"
+        },
+        {
+          "s": "ghost",
+          "s_label": "Entity",
+          "p": "discusses",
+          "o": "humanity's flawed understanding of life",
+          "o_label": "Concept"
+        }
+      ]
+    },
+    {
+      "sentence_id": 34,
+      "source_text": "The only way to overcome the problematic condition of humanity , according to the ghost , is to experience purgation through fire.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "problematic condition of humanity",
+          "s_label": "Condition",
+          "p": "afflicts",
+          "o": "humanity",
+          "o_label": "Theme"
+        },
+        {
+          "s": "ghost",
+          "s_label": "Entity",
+          "p": "states_solution_for",
+          "o": "problematic condition of humanity",
+          "o_label": "Condition"
+        },
+        {
+          "s": "purgation through fire",
+          "s_label": "Purgation",
+          "p": "through",
+          "o": "fire",
+          "o_label": "Image"
+        },
+        {
+          "s": "ghost",
+          "s_label": "Entity",
+          "p": "recommends",
+          "o": "purgation through fire",
+          "o_label": "Purgation"
+        }
+      ]
+    },
+    {
+      "sentence_id": 35,
+      "source_text": "The fire is described in a manner similar to Julian of Norwich 's writing about God 's love and discussed in relationship to the shirt of Nessus , a shirt that burns its wearer.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "fire",
+          "s_label": "Image",
+          "p": "is_described_similarly_to",
+          "o": "julian of norwich's writing about god's love",
+          "o_label": "Writing"
+        },
+        {
+          "s": "the shirt of nessus",
+          "s_label": "Object",
+          "p": "describes",
+          "o": "a shirt that burns its wearer",
+          "o_label": "Object"
+        },
+        {
+          "s": "fire",
+          "s_label": "Image",
+          "p": "is_discussed_in_relationship_to",
+          "o": "the shirt of nessus",
+          "o_label": "Object"
+        }
+      ]
+    },
+    {
+      "sentence_id": 36,
+      "source_text": "Little Gidding continues by describing the eternalness of the present and how history exists in a pattern.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "describes",
+          "o": "eternalness of the present",
+          "o_label": "Concept"
+        },
+        {
+          "s": "past events",
+          "s_label": "Concept",
+          "p": "exists_in",
+          "o": "a pattern",
+          "o_label": "Concept"
+        },
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "describes",
+          "o": "history exists in a pattern",
+          "o_label": "Concept"
+        }
+      ]
+    },
+    {
+      "sentence_id": 37,
+      "source_text": "The poem concludes by explaining how sacrifice is needed to allow an individual to die into life and be reborn , and that salvation should be the goal of humankind.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "salvation",
+          "s_label": "Theme",
+          "p": "is_goal_of",
+          "o": "goal of humankind",
+          "o_label": "Concept"
+        },
+        {
+          "s": "sacrifice",
+          "s_label": "Concept",
+          "p": "is_necessary_for",
+          "o": "individual",
+          "o_label": "Concept"
+        },
+        {
+          "s": "individual",
+          "s_label": "Concept",
+          "p": "died_in",
+          "o": "life",
+          "o_label": "Concept"
+        },
+        {
+          "s": "individual",
+          "s_label": "Concept",
+          "p": "is_reborn_into",
+          "o": "rebirth",
+          "o_label": "Concept"
+        }
+      ]
+    },
+    {
+      "sentence_id": 38,
+      "source_text": "= = Themes = =",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "themes",
+          "s_label": "Section",
+          "p": "is_section_of",
+          "o": "context",
+          "o_label": "Document"
+        }
+      ]
+    },
+    {
+      "sentence_id": 39,
+      "source_text": "In terms of renewal , Eliot believed that suffering was needed for all of society before new life could begin.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "believed_needed",
+          "o": "suffering",
+          "o_label": "Concept"
+        },
+        {
+          "s": "suffering",
+          "s_label": "Concept",
+          "p": "needed_for",
+          "o": "all of society",
+          "o_label": "Concept"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "believed_about",
+          "o": "renewal",
+          "o_label": "Concept"
+        },
+        {
+          "s": "life",
+          "s_label": "Concept",
+          "p": "begins_after",
+          "o": "renewal",
+          "o_label": "Concept"
+        }
+      ]
+    },
+    {
+      "sentence_id": 40,
+      "source_text": "The original Little Gidding community was built for living on monastic lines , but the community was damaged and dispersed by Puritan forces during the English Civil War in 1646.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "english civil war",
+          "s_label": "Event",
+          "p": "during",
+          "o": "little gidding community",
+          "o_label": "Community"
+        },
+        {
+          "s": "little gidding community",
+          "s_label": "Community",
+          "p": "was_damaged_by",
+          "o": "puritan forces",
+          "o_label": "Force"
+        },
+        {
+          "s": "little gidding community",
+          "s_label": "Community",
+          "p": "was_built_for_living_on",
+          "o": "monastic lines",
+          "o_label": "Methodology"
+        },
+        {
+          "s": "english civil war",
+          "s_label": "Event",
+          "p": "occurred_in",
+          "o": "1646",
+          "o_label": "Year"
+        },
+        {
+          "s": "little gidding community",
+          "s_label": "Community",
+          "p": "was_dispersed_during",
+          "o": "puritan forces",
+          "o_label": "Force"
+        }
+      ]
+    },
+    {
+      "sentence_id": 41,
+      "source_text": "The church , the centre of the community , was restored in 1714 and again in 1853.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "the church",
+          "s_label": "Building",
+          "p": "was_recovering",
+          "o": "restored in 1853",
+          "o_label": "Event"
+        },
+        {
+          "s": "the church",
+          "s_label": "Building",
+          "p": "was_recovering",
+          "o": "restored in 1714",
+          "o_label": "Event"
+        },
+        {
+          "s": "the church",
+          "s_label": "Building",
+          "p": "is_centre_of",
+          "o": "the community",
+          "o_label": "Community"
+        }
+      ]
+    },
+    {
+      "sentence_id": 42,
+      "source_text": "The image of religious renewal is combined with the image of the London air - raids and the constant fighting and destruction within the world.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "religious renewal",
+          "s_label": "Image",
+          "p": "merges_with",
+          "o": "london air raids",
+          "o_label": "Image"
+        },
+        {
+          "s": "religious renewal",
+          "s_label": "Image",
+          "p": "merges_with",
+          "o": "constant fighting and destruction within the world",
+          "o_label": "Event"
+        },
+        {
+          "s": "london air raids",
+          "s_label": "Image",
+          "p": "merges_with",
+          "o": "constant fighting and destruction within the world",
+          "o_label": "Event"
+        }
+      ]
+    },
+    {
+      "sentence_id": 43,
+      "source_text": "This compound image is used to discuss the connection of holy places with the Holy Spirit , Pentecost , communion with the dead , and the repetition of history.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "compound image",
+          "s_label": "Image",
+          "p": "discusses_connection_with",
+          "o": "history exists in a pattern",
+          "o_label": "Concept"
+        },
+        {
+          "s": "compound image",
+          "s_label": "Image",
+          "p": "discusses_connection_with",
+          "o": "holy places",
+          "o_label": "Concept"
+        },
+        {
+          "s": "compound image",
+          "s_label": "Image",
+          "p": "discusses_connection_with",
+          "o": "pentecost",
+          "o_label": "Event"
+        },
+        {
+          "s": "compound image",
+          "s_label": "Image",
+          "p": "discusses_connection_with",
+          "o": "communion with the dead",
+          "o_label": "Concept"
+        },
+        {
+          "s": "compound image",
+          "s_label": "Image",
+          "p": "discusses_connection_with",
+          "o": "holy spirit",
+          "o_label": "Concept"
+        }
+      ]
+    },
+    {
+      "sentence_id": 44,
+      "source_text": "The theme is also internal to Eliot 's own poems ; the image of the rose garden at the end Little Gidding is the image that begins Burnt Norton and the journey is made circular.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "internal to eliot's own poems",
+          "s_label": "Theme",
+          "p": "is_internal_to",
+          "o": "eliot's own poems",
+          "o_label": "Poems"
+        },
+        {
+          "s": "rose garden at the end of little gidding",
+          "s_label": "Image",
+          "p": "begins_after",
+          "o": "burnt norton",
+          "o_label": "Poem"
+        },
+        {
+          "s": "the journey",
+          "s_label": "Journey",
+          "p": "is_made_circular",
+          "o": "circular journey",
+          "o_label": "Journey"
+        },
+        {
+          "s": "rose garden at the end of little gidding",
+          "s_label": "Image",
+          "p": "corresponds_to",
+          "o": "image that begins burnt norton",
+          "o_label": "Image"
+        }
+      ]
+    },
+    {
+      "sentence_id": 45,
+      "source_text": "Also , the depiction of time within the poem is similar to the way time operates within The Family Reunion.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "poem",
+          "s_label": "Work",
+          "p": "depiction_of_time_similar_to",
+          "o": "the family reunion",
+          "o_label": "Work"
+        }
+      ]
+    },
+    {
+      "sentence_id": 46,
+      "source_text": "Little Gidding is the first poem of T. S. Eliot 's Four Quartets.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "is_by",
+          "o": "t. s. eliot",
+          "o_label": "Person"
+        },
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "is_fourth_and_final_poem_of",
+          "o": "third four quartets poem",
+          "o_label": "Work"
+        }
+      ]
+    },
+    {
+      "sentence_id": 47,
+      "source_text": "Like the other poems making up the Four Quartets , Little Gidding deals with the past , present , and future , and humanity 's place within them as each generation is seemingly united.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "deals_with",
+          "o": "present",
+          "o_label": "Concept"
+        },
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "is_part_of",
+          "o": "four quartets",
+          "o_label": "Poem_Series"
+        },
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "deals_with",
+          "o": "past events",
+          "o_label": "Concept"
+        },
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "deals_with",
+          "o": "future",
+          "o_label": "Concept"
+        },
+        {
+          "s": "little gidding",
+          "s_label": "Poem",
+          "p": "explores",
+          "o": "humanity's place within time",
+          "o_label": "Concept"
+        },
+        {
+          "s": "each generation",
+          "s_label": "Generation",
+          "p": "is_seemingly_united",
+          "o": "understanding this unity",
+          "o_label": "Concept"
+        }
+      ]
+    },
+    {
+      "sentence_id": 48,
+      "source_text": "In the second section , there is a ghost who is the compilation of various poets , including Dante , Swift , Yeats , and others.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "compilation of various poets",
+          "s_label": "Compilation",
+          "p": "includes",
+          "o": "yeats",
+          "o_label": "Person"
+        },
+        {
+          "s": "second section",
+          "s_label": "Section",
+          "p": "contains",
+          "o": "ghost",
+          "o_label": "Entity"
+        },
+        {
+          "s": "compilation of various poets",
+          "s_label": "Compilation",
+          "p": "includes",
+          "o": "dante",
+          "o_label": "Person"
+        },
+        {
+          "s": "compilation of various poets",
+          "s_label": "Compilation",
+          "p": "includes",
+          "o": "swift",
+          "o_label": "Person"
+        },
+        {
+          "s": "ghost",
+          "s_label": "Entity",
+          "p": "is_compilation_of",
+          "o": "compilation of various poets",
+          "o_label": "Compilation"
+        }
+      ]
+    },
+    {
+      "sentence_id": 49,
+      "source_text": "When the ghost joins the poet , the narrator states \" Knowing myself yet being someone other \".",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "narrator",
+          "s_label": "Person",
+          "p": "states",
+          "o": "knowing myself yet being someone other",
+          "o_label": "State"
+        },
+        {
+          "s": "ghost",
+          "s_label": "Entity",
+          "p": "joins",
+          "o": "the poet",
+          "o_label": "Person"
+        }
+      ]
+    },
+    {
+      "sentence_id": 50,
+      "source_text": "This suggests that the different times merge at the same time that the different personalities begin to merge , allowing a communication and connection with the dead.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "different times",
+          "s_label": "Concept",
+          "p": "merge",
+          "o": "different personalities",
+          "o_label": "Concept"
+        },
+        {
+          "s": "different times",
+          "s_label": "Concept",
+          "p": "allow",
+          "o": "communication and connection with the dead",
+          "o_label": "Concept"
+        },
+        {
+          "s": "different personalities",
+          "s_label": "Concept",
+          "p": "allow",
+          "o": "communication and connection with the dead",
+          "o_label": "Concept"
+        }
+      ]
+    },
+    {
+      "sentence_id": 51,
+      "source_text": "Later , in the fourth section , humanity is given a choice between the Holy Spirit or the bombing of London ; redemption or destruction.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "second section",
+          "s_label": "Section",
+          "p": "presents_choice_to",
+          "o": "humanity",
+          "o_label": "Theme"
+        },
+        {
+          "s": "humanity",
+          "s_label": "Theme",
+          "p": "chooses_between",
+          "o": "bombing of london",
+          "o_label": "Event"
+        },
+        {
+          "s": "humanity",
+          "s_label": "Theme",
+          "p": "chooses_between",
+          "o": "destruction",
+          "o_label": "State"
+        },
+        {
+          "s": "humanity",
+          "s_label": "Theme",
+          "p": "chooses_between",
+          "o": "redemption",
+          "o_label": "State"
+        },
+        {
+          "s": "humanity",
+          "s_label": "Theme",
+          "p": "chooses_between",
+          "o": "holy spirit",
+          "o_label": "Concept"
+        }
+      ]
+    },
+    {
+      "sentence_id": 52,
+      "source_text": "God 's love allows humankind to be redeemed and escape the living hell through purgation by fire.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "humankind",
+          "s_label": "Humankind",
+          "p": "can_become",
+          "o": "redeemed",
+          "o_label": "State"
+        },
+        {
+          "s": "humankind",
+          "s_label": "Humankind",
+          "p": "can_escape",
+          "o": "living hell",
+          "o_label": "State"
+        },
+        {
+          "s": "god's love",
+          "s_label": "Concept",
+          "p": "allows_redemption_of",
+          "o": "humankind",
+          "o_label": "Humankind"
+        },
+        {
+          "s": "purgation by fire",
+          "s_label": "Process",
+          "p": "uses",
+          "o": "fire",
+          "o_label": "Image"
+        },
+        {
+          "s": "humankind",
+          "s_label": "Humankind",
+          "p": "is_purged_by",
+          "o": "purgation by fire",
+          "o_label": "Process"
+        }
+      ]
+    },
+    {
+      "sentence_id": 53,
+      "source_text": "The end of the poem describes how Eliot has attempted to help the world as a poet.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "is_as",
+          "o": "the poet",
+          "o_label": "Person"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "attempted_to_help",
+          "o": "the world",
+          "o_label": "World"
+        }
+      ]
+    },
+    {
+      "sentence_id": 54,
+      "source_text": "He parallels his work in language with working on the soul or working on society.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "he",
+          "s_label": "Person",
+          "p": "parallels",
+          "o": "working on society",
+          "o_label": "Work"
+        },
+        {
+          "s": "he",
+          "s_label": "Person",
+          "p": "parallels",
+          "o": "work in language",
+          "o_label": "Work"
+        },
+        {
+          "s": "he",
+          "s_label": "Person",
+          "p": "parallels",
+          "o": "working on the soul",
+          "o_label": "Work"
+        }
+      ]
+    },
+    {
+      "sentence_id": 55,
+      "source_text": "The ghost , a combination of many literary figures , was originally addressed in the poem as \" Ser Brunetto \" before being revised as an ambiguous \" you \".",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "ghost",
+          "s_label": "Entity",
+          "p": "was_revised_to",
+          "o": "you",
+          "o_label": "Pronoun"
+        },
+        {
+          "s": "ghost",
+          "s_label": "Entity",
+          "p": "was_originally_addressed_as",
+          "o": "ser brunetto",
+          "o_label": "Name"
+        },
+        {
+          "s": "ghost",
+          "s_label": "Entity",
+          "p": "is_combination_of",
+          "o": "many literary figures",
+          "o_label": "Concept"
+        }
+      ]
+    },
+    {
+      "sentence_id": 56,
+      "source_text": "\" Ser Brunetto \" was Dante 's way of addressing Brunetto Latini , a former mentor whom he meets in Hell to which he has been condemned for sodomy.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "brunetto latini",
+          "s_label": "Person",
+          "p": "condemned_for",
+          "o": "sodomy",
+          "o_label": "Crime"
+        },
+        {
+          "s": "dante",
+          "s_label": "Person",
+          "p": "addresses_as",
+          "o": "brunetto latini",
+          "o_label": "Person"
+        },
+        {
+          "s": "brunetto latini",
+          "s_label": "Person",
+          "p": "condemned_to",
+          "o": "hell",
+          "o_label": "Event"
+        },
+        {
+          "s": "dante",
+          "s_label": "Person",
+          "p": "meets",
+          "o": "brunetto latini",
+          "o_label": "Person"
+        }
+      ]
+    },
+    {
+      "sentence_id": 57,
+      "source_text": "Eliot , in a letter to John Hayward dated 27 August 1942 , explained why he changed the wording :  I think you will recognise that it was necessary to get rid of Brunetto for two reasons.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "explained_in",
+          "o": "letter dated 27 august 1942",
+          "o_label": "Letter"
+        },
+        {
+          "s": "letter dated 27 august 1942",
+          "s_label": "Letter",
+          "p": "addressed_to",
+          "o": "john hayward",
+          "o_label": "Person"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "wanted_to_get_rid_of",
+          "o": "brunetto",
+          "o_label": "Entity"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "explained",
+          "o": "changed the wording",
+          "o_label": "Action"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "wrote_letter_to",
+          "o": "john hayward",
+          "o_label": "Person"
+        }
+      ]
+    },
+    {
+      "sentence_id": 58,
+      "source_text": "The first is that the visionary figure has now become somewhat more definite and will no doubt be identified by some readers with Yeats though I do not mean anything so precise as that.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "some readers",
+          "s_label": "Readers",
+          "p": "identify_with",
+          "o": "yeats",
+          "o_label": "Person"
+        },
+        {
+          "s": "visionary figure",
+          "s_label": "Figure",
+          "p": "has_become",
+          "o": "more definite",
+          "o_label": "Definiteness"
+        }
+      ]
+    },
+    {
+      "sentence_id": 59,
+      "source_text": "However , I do not wish to take the responsibility of putting Yeats or anybody else into Hell and I do not want to impute to him the particular vice which took Brunetto there.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "he",
+          "s_label": "Person",
+          "p": "does_not_wish_to_impute_vice_to",
+          "o": "he",
+          "o_label": "Person"
+        },
+        {
+          "s": "the particular vice",
+          "s_label": "Vice",
+          "p": "took_to_Hell",
+          "o": "brunetto latini",
+          "o_label": "Person"
+        },
+        {
+          "s": "he",
+          "s_label": "Person",
+          "p": "does_not_wish_to_put_into_Hell",
+          "o": "anybody else",
+          "o_label": "Person"
+        },
+        {
+          "s": "he",
+          "s_label": "Person",
+          "p": "is_imputed_with",
+          "o": "the particular vice",
+          "o_label": "Vice"
+        },
+        {
+          "s": "he",
+          "s_label": "Person",
+          "p": "does_not_wish_to_put_into_Hell",
+          "o": "yeats",
+          "o_label": "Person"
+        }
+      ]
+    },
+    {
+      "sentence_id": 60,
+      "source_text": "Secondly , although the reference to that Canto is intended to be explicit , I wish the effect of the whole to be Purgatorial which is more appropriate.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "the effect of the whole",
+          "s_label": "Effect",
+          "p": "is_desired_to_be",
+          "o": "purgatorial",
+          "o_label": "Quality"
+        },
+        {
+          "s": "reference to that canto",
+          "s_label": "Text",
+          "p": "intended_to_conclude",
+          "o": "explicit",
+          "o_label": "Intent"
+        },
+        {
+          "s": "i",
+          "s_label": "Speaker",
+          "p": "wishes_for",
+          "o": "the effect of the whole",
+          "o_label": "Effect"
+        },
+        {
+          "s": "purgatorial",
+          "s_label": "Quality",
+          "p": "is_more_appropriate_than",
+          "o": "more appropriate",
+          "o_label": "Appropriateness"
+        }
+      ]
+    },
+    {
+      "sentence_id": 61,
+      "source_text": "That brings us to the reference to swimming in fire which you will remember at the end of Purgatorio 26 where the poets are found.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "swimming in fire",
+          "s_label": "Concept",
+          "p": "is_referenced_in",
+          "o": "purgatorio 26",
+          "o_label": "Work"
+        },
+        {
+          "s": "reference to swimming in fire",
+          "s_label": "Event",
+          "p": "occurs_at_end_of",
+          "o": "purgatorio 26",
+          "o_label": "Work"
+        },
+        {
+          "s": "the poet",
+          "s_label": "Person",
+          "p": "are_found_in",
+          "o": "purgatorio 26",
+          "o_label": "Work"
+        }
+      ]
+    },
+    {
+      "sentence_id": 62,
+      "source_text": "The theme of swimming through flames is connected to the depiction of Guido Guinizelli , a poet that influenced Dante , seeking such a state in Purgatorio XXVI.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "swimming through flames",
+          "s_label": "Theme",
+          "p": "is_connected_to",
+          "o": "depiction of guido guinizelli",
+          "o_label": "Depiction"
+        },
+        {
+          "s": "such a state",
+          "s_label": "State",
+          "p": "exists_in",
+          "o": "purgatorio 26",
+          "o_label": "Work"
+        },
+        {
+          "s": "guido guinizelli",
+          "s_label": "Person",
+          "p": "seeks",
+          "o": "such a state",
+          "o_label": "State"
+        },
+        {
+          "s": "depiction of guido guinizelli",
+          "s_label": "Depiction",
+          "p": "depicts",
+          "o": "guido guinizelli",
+          "o_label": "Person"
+        },
+        {
+          "s": "guido guinizelli",
+          "s_label": "Person",
+          "p": "influenced",
+          "o": "dante",
+          "o_label": "Person"
+        }
+      ]
+    },
+    {
+      "sentence_id": 63,
+      "source_text": "However , the depiction of swimming was transformed into an image of dancing , an act that appears throughout Yeats 's poetry , within purgatorial flames.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "dancing",
+          "s_label": "Act",
+          "p": "appears_throughout",
+          "o": "yeats's poetry",
+          "o_label": "Poetry"
+        },
+        {
+          "s": "swimming",
+          "s_label": "Depiction",
+          "p": "transformed_into",
+          "o": "dancing",
+          "o_label": "Image"
+        },
+        {
+          "s": "dancing",
+          "s_label": "Act",
+          "p": "within",
+          "o": "purgatorial flames",
+          "o_label": "Location"
+        }
+      ]
+    },
+    {
+      "sentence_id": 64,
+      "source_text": "The critic Dominic Manganiello suggests that , in combining the image of dancing with purgation , Eliot merges Dante 's and Yeats 's poetic themes.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "dominic manganiello",
+          "s_label": "Person",
+          "p": "suggests",
+          "o": "t. s. eliot",
+          "o_label": "Person"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "merge",
+          "o": "purgation through fire",
+          "o_label": "Purgation"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "merge",
+          "o": "dancing",
+          "o_label": "Image"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "merge",
+          "o": "yeats's poetic themes",
+          "o_label": "Theme"
+        },
+        {
+          "s": "dancing",
+          "s_label": "Image",
+          "p": "merges_with",
+          "o": "purgation through fire",
+          "o_label": "Purgation"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "merge",
+          "o": "dante's poetic themes",
+          "o_label": "Theme"
+        }
+      ]
+    },
+    {
+      "sentence_id": 65,
+      "source_text": "= = Reception = =",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "reception",
+          "s_label": "Section",
+          "p": "is",
+          "o": "reception",
+          "o_label": "Section"
+        }
+      ]
+    },
+    {
+      "sentence_id": 66,
+      "source_text": "Critics such as Malcolm Cowley and Delmore Schwartz describe mixed emotions about the religiosity of the poem.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "delmore schwartz",
+          "s_label": "Person",
+          "p": "describes",
+          "o": "mixed emotions",
+          "o_label": "Emotion"
+        },
+        {
+          "s": "mixed emotions",
+          "s_label": "Emotion",
+          "p": "about",
+          "o": "religiosity of the poem",
+          "o_label": "Attribute"
+        },
+        {
+          "s": "malcolm cowley",
+          "s_label": "Person",
+          "p": "describes",
+          "o": "mixed emotions",
+          "o_label": "Emotion"
+        }
+      ]
+    },
+    {
+      "sentence_id": 67,
+      "source_text": "Cowley emphasised the mystical nature of the poem and how its themes were closer to Buddhism than Anglicanism while mentioning his appreciation of many of the passages.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "themes of the poem",
+          "s_label": "Concept",
+          "p": "closer_to",
+          "o": "buddhism",
+          "o_label": "Religion"
+        },
+        {
+          "s": "malcolm cowley",
+          "s_label": "Person",
+          "p": "appreciated",
+          "o": "many of the passages",
+          "o_label": "Concept"
+        },
+        {
+          "s": "malcolm cowley",
+          "s_label": "Person",
+          "p": "emphasizes",
+          "o": "mystical nature of the poem",
+          "o_label": "Concept"
+        },
+        {
+          "s": "themes of the poem",
+          "s_label": "Concept",
+          "p": "closer_to",
+          "o": "anglicanism",
+          "o_label": "Religion"
+        }
+      ]
+    },
+    {
+      "sentence_id": 68,
+      "source_text": "Schwartz also mentioned the Buddhist images and his admiration for many of the lines in Little Gidding.",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "delmore schwartz",
+          "s_label": "Person",
+          "p": "mentions",
+          "o": "buddhist images",
+          "o_label": "Artifact"
+        },
+        {
+          "s": "delmore schwartz",
+          "s_label": "Person",
+          "p": "admired_lines_in",
+          "o": "little gidding",
+          "o_label": "Poem"
+        }
+      ]
+    },
+    {
+      "sentence_id": 69,
+      "source_text": "F. B. Pinion believed that the fourth section of the poem costs \" Eliot more trouble and vexation than any passage of the same length he ever wrote , and is his greatest achievement in the Four Quartets. \"",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "f. b. pinion",
+          "s_label": "Person",
+          "p": "believed_about",
+          "o": "the fourth section of the poem",
+          "o_label": "Poem_Section"
+        },
+        {
+          "s": "the fourth section of the poem",
+          "s_label": "Poem_Section",
+          "p": "is",
+          "o": "his greatest achievement in the four quartets",
+          "o_label": "Achievement"
+        },
+        {
+          "s": "the fourth section of the poem",
+          "s_label": "Poem_Section",
+          "p": "costs_trouble_and_vexation_to",
+          "o": "t. s. eliot",
+          "o_label": "Person"
+        },
+        {
+          "s": "the fourth section of the poem",
+          "s_label": "Poem_Section",
+          "p": "more_than",
+          "o": "any passage of the same length he ever wrote",
+          "o_label": "Passage"
+        }
+      ]
+    },
+    {
+      "sentence_id": 70,
+      "source_text": "E. M. Forster did not like Eliot 's emphasis on pain and responded to the poem : \" Of course there 's pain on and off through each individual 's life... You can 't shirk it and so on. But why should it be endorsed by the schoolmaster and sanctified by the priest until the fire and the rose are one when so much of it is caused by disease and bullies ? It is here that Eliot becomes unsatisfactory as a seer. \"",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "pain",
+          "s_label": "Concept",
+          "p": "appears_throughout",
+          "o": "life",
+          "o_label": "Concept"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "emphasizes",
+          "o": "pain",
+          "o_label": "Concept"
+        },
+        {
+          "s": "pain",
+          "s_label": "Concept",
+          "p": "caused_by",
+          "o": "disease",
+          "o_label": "Concept"
+        },
+        {
+          "s": "e. m. forster",
+          "s_label": "Person",
+          "p": "considers_unsatisfactory_as_seer",
+          "o": "t. s. eliot",
+          "o_label": "Person"
+        },
+        {
+          "s": "e. m. forster",
+          "s_label": "Person",
+          "p": "did_not_like",
+          "o": "t. s. eliot",
+          "o_label": "Person"
+        },
+        {
+          "s": "e. m. forster",
+          "s_label": "Person",
+          "p": "responded_to",
+          "o": "eliot's emphasis on pain",
+          "o_label": "Concept"
+        },
+        {
+          "s": "e. m. forster",
+          "s_label": "Person",
+          "p": "mentions",
+          "o": "schoolmaster",
+          "o_label": "Concept"
+        },
+        {
+          "s": "pain",
+          "s_label": "Concept",
+          "p": "caused_by",
+          "o": "bullies",
+          "o_label": "Concept"
+        },
+        {
+          "s": "e. m. forster",
+          "s_label": "Person",
+          "p": "mentions",
+          "o": "priest",
+          "o_label": "Concept"
+        },
+        {
+          "s": "e. m. forster",
+          "s_label": "Person",
+          "p": "quotes",
+          "o": "fire and the rose are one",
+          "o_label": "Concept"
+        }
+      ]
+    },
+    {
+      "sentence_id": 71,
+      "source_text": "Writing in 2003 , Roger Scruton wrote that in \" Little Gidding \" Eliot achieved \" that for which he envies Dante — namely , a poetry of belief , in which belief and words are one , and in which the thought cannot be prized free from the controlled and beautiful language \".",
+      "status": "ok",
+      "triples": [
+        {
+          "s": "belief and words are one",
+          "s_label": "Concept",
+          "p": "linked_to",
+          "o": "controlled and beautiful language",
+          "o_label": "Concept"
+        },
+        {
+          "s": "roger scruton",
+          "s_label": "Person",
+          "p": "stated_about",
+          "o": "t. s. eliot",
+          "o_label": "Person"
+        },
+        {
+          "s": "mystical nature of the poem",
+          "s_label": "Concept",
+          "p": "characterized_by",
+          "o": "thought cannot be prized free from the controlled and beautiful language",
+          "o_label": "Concept"
+        },
+        {
+          "s": "mystical nature of the poem",
+          "s_label": "Concept",
+          "p": "characterized_by",
+          "o": "belief and words are one",
+          "o_label": "Concept"
+        },
+        {
+          "s": "roger scruton",
+          "s_label": "Person",
+          "p": "is_about",
+          "o": "little gidding",
+          "o_label": "Poem"
+        },
+        {
+          "s": "t. s. eliot",
+          "s_label": "Person",
+          "p": "achieved",
+          "o": "mystical nature of the poem",
+          "o_label": "Concept"
+        },
+        {
+          "s": "thought cannot be prized free from the controlled and beautiful language",
+          "s_label": "Concept",
+          "p": "depends_on",
+          "o": "controlled and beautiful language",
+          "o_label": "Concept"
+        }
+      ]
+    }
+  ],
+  "final_kg": {
+    "entities": [
+      {
+        "name": "the community",
+        "label": "Community"
+      },
+      {
+        "name": "regret for past events",
+        "label": "Concept"
+      },
+      {
+        "name": "religiosity of the poem",
+        "label": "Attribute"
+      },
+      {
+        "name": "first draft was written",
+        "label": "Event"
+      },
+      {
+        "name": "17th century",
+        "label": "Century"
+      },
+      {
+        "name": "anglicanism",
+        "label": "Religion"
+      },
+      {
+        "name": "rebirth",
+        "label": "Concept"
+      },
+      {
+        "name": "parliamentarians and royalists",
+        "label": "Group"
+      },
+      {
+        "name": "purgation by fire",
+        "label": "Process"
+      },
+      {
+        "name": "context",
+        "label": "Document"
+      },
+      {
+        "name": "pentecostal fire",
+        "label": "Image"
+      },
+      {
+        "name": "humanity",
+        "label": "Theme"
+      },
+      {
+        "name": "themes of the poem",
+        "label": "Concept"
+      },
+      {
+        "name": "between worlds",
+        "label": "Worlds"
+      },
+      {
+        "name": "the world",
+        "label": "World"
+      },
+      {
+        "name": "time",
+        "label": "Theme"
+      },
+      {
+        "name": "explicit",
+        "label": "Intent"
+      },
+      {
+        "name": "visionary figure",
+        "label": "Figure"
+      },
+      {
+        "name": "air raids on london",
+        "label": "Concept"
+      },
+      {
+        "name": "sodomy",
+        "label": "Crime"
+      },
+      {
+        "name": "individual",
+        "label": "Concept"
+      },
+      {
+        "name": "the original christian community",
+        "label": "Location"
+      },
+      {
+        "name": "roger scruton",
+        "label": "Person"
+      },
+      {
+        "name": "earth",
+        "label": "Element"
+      },
+      {
+        "name": "the shirt of nessus",
+        "label": "Object"
+      },
+      {
+        "name": "some readers",
+        "label": "Readers"
+      },
+      {
+        "name": "belief and words are one",
+        "label": "Concept"
+      },
+      {
+        "name": "little gidding community",
+        "label": "Community"
+      },
+      {
+        "name": "cycle of warfare",
+        "label": "Concept"
+      },
+      {
+        "name": "brunetto latini",
+        "label": "Person"
+      },
+      {
+        "name": "swimming",
+        "label": "Depiction"
+      },
+      {
+        "name": "holy spirit",
+        "label": "Concept"
+      },
+      {
+        "name": "huntingdonshire",
+        "label": "Location"
+      },
+      {
+        "name": "a shirt that burns its wearer",
+        "label": "Object"
+      },
+      {
+        "name": "you",
+        "label": "Pronoun"
+      },
+      {
+        "name": "dancing",
+        "label": "Act"
+      },
+      {
+        "name": "f. b. pinion",
+        "label": "Person"
+      },
+      {
+        "name": "image that begins burnt norton",
+        "label": "Image"
+      },
+      {
+        "name": "things unaccomplished",
+        "label": "Concept"
+      },
+      {
+        "name": "understanding this unity",
+        "label": "Concept"
+      },
+      {
+        "name": "winter",
+        "label": "Concept"
+      },
+      {
+        "name": "working on the soul",
+        "label": "Work"
+      },
+      {
+        "name": "pentecost",
+        "label": "Event"
+      },
+      {
+        "name": "dante's terza rima style",
+        "label": "Style"
+      },
+      {
+        "name": "julian of norwich's writing about god's love",
+        "label": "Writing"
+      },
+      {
+        "name": "change",
+        "label": "Concept"
+      },
+      {
+        "name": "the narrator of the poem",
+        "label": "Narrator"
+      },
+      {
+        "name": "shamley green, surrey",
+        "label": "Location"
+      },
+      {
+        "name": "perspective",
+        "label": "Theme"
+      },
+      {
+        "name": "communion with the dead",
+        "label": "Concept"
+      },
+      {
+        "name": "small anglican community",
+        "label": "Community"
+      },
+      {
+        "name": "four quartets",
+        "label": "Poem_Series"
+      },
+      {
+        "name": "buddhist images",
+        "label": "Artifact"
+      },
+      {
+        "name": "= =",
+        "label": "Marker"
+      },
+      {
+        "name": "water",
+        "label": "Element"
+      },
+      {
+        "name": "schoolmaster",
+        "label": "Concept"
+      },
+      {
+        "name": "third four quartets poem",
+        "label": "Work"
+      },
+      {
+        "name": "the particular vice",
+        "label": "Vice"
+      },
+      {
+        "name": "swift",
+        "label": "Person"
+      },
+      {
+        "name": "london air raids",
+        "label": "Image"
+      },
+      {
+        "name": "living hell",
+        "label": "State"
+      },
+      {
+        "name": "many literary figures",
+        "label": "Concept"
+      },
+      {
+        "name": "eternalness of the present",
+        "label": "Concept"
+      },
+      {
+        "name": "1646",
+        "label": "Year"
+      },
+      {
+        "name": "the ferrar household",
+        "label": "Household"
+      },
+      {
+        "name": "delay for over a year",
+        "label": "Event"
+      },
+      {
+        "name": "nicholas ferrar",
+        "label": "Person"
+      },
+      {
+        "name": "poem",
+        "label": "Work"
+      },
+      {
+        "name": "delmore schwartz",
+        "label": "Person"
+      },
+      {
+        "name": "swimming in fire",
+        "label": "Concept"
+      },
+      {
+        "name": "goal of humankind",
+        "label": "Concept"
+      },
+      {
+        "name": "purgatorial flames",
+        "label": "Location"
+      },
+      {
+        "name": "history exists in a pattern",
+        "label": "Concept"
+      },
+      {
+        "name": "ghost",
+        "label": "Entity"
+      },
+      {
+        "name": "suffering",
+        "label": "Concept"
+      },
+      {
+        "name": "controlled and beautiful language",
+        "label": "Concept"
+      },
+      {
+        "name": "october new english weekly",
+        "label": "Publication"
+      },
+      {
+        "name": "malcolm cowley",
+        "label": "Person"
+      },
+      {
+        "name": "i",
+        "label": "Speaker"
+      },
+      {
+        "name": "first draft",
+        "label": "Draft"
+      },
+      {
+        "name": "buddhism",
+        "label": "Religion"
+      },
+      {
+        "name": "bombing of london",
+        "label": "Event"
+      },
+      {
+        "name": "five",
+        "label": "Quantity"
+      },
+      {
+        "name": "combined image of fire and pentecostal fire",
+        "label": "Image"
+      },
+      {
+        "name": "many of the passages",
+        "label": "Concept"
+      },
+      {
+        "name": "rose garden at the end of little gidding",
+        "label": "Image"
+      },
+      {
+        "name": "swimming through flames",
+        "label": "Theme"
+      },
+      {
+        "name": "various poets and literary figures",
+        "label": "Group"
+      },
+      {
+        "name": "he",
+        "label": "Person"
+      },
+      {
+        "name": "renewal",
+        "label": "Concept"
+      },
+      {
+        "name": "yeats's poetic themes",
+        "label": "Theme"
+      },
+      {
+        "name": "it",
+        "label": "Work"
+      },
+      {
+        "name": "different personalities",
+        "label": "Concept"
+      },
+      {
+        "name": "religious community",
+        "label": "ReligiousCommunity"
+      },
+      {
+        "name": "the site",
+        "label": "Location"
+      },
+      {
+        "name": "1626",
+        "label": "Date"
+      },
+      {
+        "name": "eliot's declining health",
+        "label": "Health"
+      },
+      {
+        "name": "the journey",
+        "label": "Journey"
+      },
+      {
+        "name": "starting the poem",
+        "label": "Event"
+      },
+      {
+        "name": "knowing myself yet being someone other",
+        "label": "State"
+      },
+      {
+        "name": "four classical elements",
+        "label": "Element"
+      },
+      {
+        "name": "reference to that canto",
+        "label": "Text"
+      },
+      {
+        "name": "mixed emotions",
+        "label": "Emotion"
+      },
+      {
+        "name": "air raids on great britain during world war ii",
+        "label": "Event"
+      },
+      {
+        "name": "analysis of the four classical elements",
+        "label": "Analysis"
+      },
+      {
+        "name": "mystical nature of the poem",
+        "label": "Concept"
+      },
+      {
+        "name": "dante's poetic themes",
+        "label": "Theme"
+      },
+      {
+        "name": "the poets of the past",
+        "label": "Poets"
+      },
+      {
+        "name": "all of society",
+        "label": "Concept"
+      },
+      {
+        "name": "restored in 1853",
+        "label": "Event"
+      },
+      {
+        "name": "a pattern",
+        "label": "Concept"
+      },
+      {
+        "name": "the poet",
+        "label": "Person"
+      },
+      {
+        "name": "past events",
+        "label": "Concept"
+      },
+      {
+        "name": "unity of past, present, and future",
+        "label": "Concept"
+      },
+      {
+        "name": "reference to swimming in fire",
+        "label": "Event"
+      },
+      {
+        "name": "the book of common prayer",
+        "label": "Book"
+      },
+      {
+        "name": "english civil war",
+        "label": "Event"
+      },
+      {
+        "name": "puritan forces",
+        "label": "Force"
+      },
+      {
+        "name": "fire",
+        "label": "Image"
+      },
+      {
+        "name": "purgation through fire",
+        "label": "Purgation"
+      },
+      {
+        "name": "hell",
+        "label": "Event"
+      },
+      {
+        "name": "world war ii",
+        "label": "Event"
+      },
+      {
+        "name": "redeemed",
+        "label": "State"
+      },
+      {
+        "name": "the family reunion",
+        "label": "Work"
+      },
+      {
+        "name": "problematic condition of humanity",
+        "label": "Condition"
+      },
+      {
+        "name": "compound image",
+        "label": "Image"
+      },
+      {
+        "name": "communication and connection with the dead",
+        "label": "Concept"
+      },
+      {
+        "name": "humankind",
+        "label": "Humankind"
+      },
+      {
+        "name": "purification and purgation",
+        "label": "Concept"
+      },
+      {
+        "name": "humanity's place within time",
+        "label": "Concept"
+      },
+      {
+        "name": "high church principles",
+        "label": "Principle"
+      },
+      {
+        "name": "purgatorio 26",
+        "label": "Work"
+      },
+      {
+        "name": "little gidding",
+        "label": "Poem"
+      },
+      {
+        "name": "different times",
+        "label": "Concept"
+      },
+      {
+        "name": "redemption",
+        "label": "State"
+      },
+      {
+        "name": "drafts",
+        "label": "Entity"
+      },
+      {
+        "name": "his own inability to write",
+        "label": "Ability"
+      },
+      {
+        "name": "narrator",
+        "label": "Person"
+      },
+      {
+        "name": "changed the wording",
+        "label": "Action"
+      },
+      {
+        "name": "anybody else",
+        "label": "Person"
+      },
+      {
+        "name": "constant fighting and destruction within the world",
+        "label": "Event"
+      },
+      {
+        "name": "ser brunetto",
+        "label": "Name"
+      },
+      {
+        "name": "more appropriate",
+        "label": "Appropriateness"
+      },
+      {
+        "name": "reformed",
+        "label": "Event"
+      },
+      {
+        "name": "art in general",
+        "label": "Concept"
+      },
+      {
+        "name": "circular journey",
+        "label": "Journey"
+      },
+      {
+        "name": "too little preparation",
+        "label": "Preparation"
+      },
+      {
+        "name": "the problems with the poem",
+        "label": "Problem"
+      },
+      {
+        "name": "sacrifice",
+        "label": "Concept"
+      },
+      {
+        "name": "yeats",
+        "label": "Person"
+      },
+      {
+        "name": "god's love",
+        "label": "Concept"
+      },
+      {
+        "name": "turning away from god",
+        "label": "Concept"
+      },
+      {
+        "name": "holy places",
+        "label": "Concept"
+      },
+      {
+        "name": "discussion",
+        "label": "Topic"
+      },
+      {
+        "name": "fire and the rose are one",
+        "label": "Concept"
+      },
+      {
+        "name": "religious renewal",
+        "label": "Image"
+      },
+      {
+        "name": "dante",
+        "label": "Person"
+      },
+      {
+        "name": "the effect of the whole",
+        "label": "Effect"
+      },
+      {
+        "name": "the fourth section of the poem",
+        "label": "Poem_Section"
+      },
+      {
+        "name": "recognising the lessons of the past",
+        "label": "Concept"
+      },
+      {
+        "name": "christian life",
+        "label": "Religion"
+      },
+      {
+        "name": "1657",
+        "label": "Date"
+      },
+      {
+        "name": "letter dated 27 august 1942",
+        "label": "Letter"
+      },
+      {
+        "name": "eliot's emphasis on pain",
+        "label": "Concept"
+      },
+      {
+        "name": "e. m. forster",
+        "label": "Person"
+      },
+      {
+        "name": "pain",
+        "label": "Concept"
+      },
+      {
+        "name": "disease",
+        "label": "Concept"
+      },
+      {
+        "name": "priest",
+        "label": "Concept"
+      },
+      {
+        "name": "salvation",
+        "label": "Theme"
+      },
+      {
+        "name": "eliot's views",
+        "label": "Viewpoint"
+      },
+      {
+        "name": "depiction of guido guinizelli",
+        "label": "Depiction"
+      },
+      {
+        "name": "monastic lines",
+        "label": "Methodology"
+      },
+      {
+        "name": "great britain",
+        "label": "Location"
+      },
+      {
+        "name": "life",
+        "label": "Concept"
+      },
+      {
+        "name": "regret for past events",
+        "label": "Emotion"
+      },
+      {
+        "name": "summer",
+        "label": "Concept"
+      },
+      {
+        "name": "the dry salvages",
+        "label": "Work"
+      },
+      {
+        "name": "september 1942",
+        "label": "Time"
+      },
+      {
+        "name": "brunetto",
+        "label": "Entity"
+      },
+      {
+        "name": "restored in 1714",
+        "label": "Event"
+      },
+      {
+        "name": "each generation",
+        "label": "Generation"
+      },
+      {
+        "name": "depiction of pentecost",
+        "label": "Concept"
+      },
+      {
+        "name": "any passage of the same length he ever wrote",
+        "label": "Passage"
+      },
+      {
+        "name": "burnt norton",
+        "label": "Poem"
+      },
+      {
+        "name": "air",
+        "label": "Element"
+      },
+      {
+        "name": "humanity's flawed understanding of life",
+        "label": "Concept"
+      },
+      {
+        "name": "writing it too quickly",
+        "label": "Writing"
+      },
+      {
+        "name": "recovered",
+        "label": "RecoveryState"
+      },
+      {
+        "name": "critics",
+        "label": "Critics"
+      },
+      {
+        "name": "death and destruction",
+        "label": "Concept"
+      },
+      {
+        "name": "working on society",
+        "label": "Work"
+      },
+      {
+        "name": "dominic manganiello",
+        "label": "Person"
+      },
+      {
+        "name": "the church",
+        "label": "Building"
+      },
+      {
+        "name": "declining health",
+        "label": "Health"
+      },
+      {
+        "name": "reception",
+        "label": "Section"
+      },
+      {
+        "name": "second section",
+        "label": "Section"
+      },
+      {
+        "name": "present",
+        "label": "Concept"
+      },
+      {
+        "name": "destruction",
+        "label": "State"
+      },
+      {
+        "name": "internal to eliot's own poems",
+        "label": "Theme"
+      },
+      {
+        "name": "future",
+        "label": "Concept"
+      },
+      {
+        "name": "feel compelled to finish it",
+        "label": "Relationship"
+      },
+      {
+        "name": "thought cannot be prized free from the controlled and beautiful language",
+        "label": "Concept"
+      },
+      {
+        "name": "his greatest achievement in the four quartets",
+        "label": "Achievement"
+      },
+      {
+        "name": "snow",
+        "label": "Image"
+      },
+      {
+        "name": "john hayward",
+        "label": "Person"
+      },
+      {
+        "name": "spiritual life",
+        "label": "Desire"
+      },
+      {
+        "name": "purgatorial",
+        "label": "Quality"
+      },
+      {
+        "name": "july 1941",
+        "label": "Date"
+      },
+      {
+        "name": "t. s. eliot",
+        "label": "Person"
+      },
+      {
+        "name": "more definite",
+        "label": "Definiteness"
+      },
+      {
+        "name": "eliot's own poems",
+        "label": "Poems"
+      },
+      {
+        "name": "themes",
+        "label": "Section"
+      },
+      {
+        "name": "compilation of various poets",
+        "label": "Compilation"
+      },
+      {
+        "name": "bullies",
+        "label": "Concept"
+      },
+      {
+        "name": "work in language",
+        "label": "Work"
+      },
+      {
+        "name": "dancing",
+        "label": "Image"
+      },
+      {
+        "name": "such a state",
+        "label": "State"
+      },
+      {
+        "name": "yeats's poetry",
+        "label": "Poetry"
+      },
+      {
+        "name": "the title",
+        "label": "Title"
+      },
+      {
+        "name": "guido guinizelli",
+        "label": "Person"
+      }
+    ],
+    "relationships": [
+      {
+        "s": "dominic manganiello",
+        "p": "suggests",
+        "o": "t. s. eliot"
+      },
+      {
+        "s": "pain",
+        "p": "appears_throughout",
+        "o": "life"
+      },
+      {
+        "s": "he",
+        "p": "lectured_throughout",
+        "o": "great britain"
+      },
+      {
+        "s": "little gidding",
+        "p": "is_by",
+        "o": "t. s. eliot"
+      },
+      {
+        "s": "fire",
+        "p": "is_described_similarly_to",
+        "o": "julian of norwich's writing about god's love"
+      },
+      {
+        "s": "the poet",
+        "p": "describes",
+        "o": "turning away from god"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "emphasizes",
+        "o": "pain"
+      },
+      {
+        "s": "delay for over a year",
+        "p": "caused_by",
+        "o": "air raids on great britain during world war ii"
+      },
+      {
+        "s": "religious community",
+        "p": "was_reformed_after",
+        "o": "reformed"
+      },
+      {
+        "s": "winter",
+        "p": "gives_attention_to_arrival_of",
+        "o": "summer"
+      },
+      {
+        "s": "discussion",
+        "p": "is_about",
+        "o": "death and destruction"
+      },
+      {
+        "s": "little gidding",
+        "p": "deals_with",
+        "o": "present"
+      },
+      {
+        "s": "pain",
+        "p": "caused_by",
+        "o": "disease"
+      },
+      {
+        "s": "internal to eliot's own poems",
+        "p": "is_internal_to",
+        "o": "eliot's own poems"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "believed_needed",
+        "o": "suffering"
+      },
+      {
+        "s": "brunetto latini",
+        "p": "condemned_for",
+        "o": "sodomy"
+      },
+      {
+        "s": "cycle of warfare",
+        "p": "merges_with",
+        "o": "depiction of pentecost"
+      },
+      {
+        "s": "english civil war",
+        "p": "during",
+        "o": "little gidding community"
+      },
+      {
+        "s": "humankind",
+        "p": "can_become",
+        "o": "redeemed"
+      },
+      {
+        "s": "poem",
+        "p": "finished_by",
+        "o": "july 1941"
+      },
+      {
+        "s": "he",
+        "p": "does_not_wish_to_impute_vice_to",
+        "o": "he"
+      },
+      {
+        "s": "little gidding",
+        "p": "is_part_of",
+        "o": "four quartets"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "started_working_again_in",
+        "o": "september 1942"
+      },
+      {
+        "s": "humankind",
+        "p": "is_purged_by",
+        "o": "purgation by fire"
+      },
+      {
+        "s": "swimming through flames",
+        "p": "is_connected_to",
+        "o": "depiction of guido guinizelli"
+      },
+      {
+        "s": "poem",
+        "p": "depiction_of_time_similar_to",
+        "o": "the family reunion"
+      },
+      {
+        "s": "narrator",
+        "p": "states",
+        "o": "knowing myself yet being someone other"
+      },
+      {
+        "s": "belief and words are one",
+        "p": "linked_to",
+        "o": "controlled and beautiful language"
+      },
+      {
+        "s": "little gidding community",
+        "p": "was_damaged_by",
+        "o": "puritan forces"
+      },
+      {
+        "s": "poem",
+        "p": "is_delimited_by",
+        "o": "= ="
+      },
+      {
+        "s": "f. b. pinion",
+        "p": "believed_about",
+        "o": "the fourth section of the poem"
+      },
+      {
+        "s": "second section",
+        "p": "presents_choice_to",
+        "o": "humanity"
+      },
+      {
+        "s": "roger scruton",
+        "p": "stated_about",
+        "o": "t. s. eliot"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "explained_in",
+        "o": "letter dated 27 august 1942"
+      },
+      {
+        "s": "little gidding",
+        "p": "is_a",
+        "o": "poem"
+      },
+      {
+        "s": "problematic condition of humanity",
+        "p": "afflicts",
+        "o": "humanity"
+      },
+      {
+        "s": "compound image",
+        "p": "discusses_connection_with",
+        "o": "history exists in a pattern"
+      },
+      {
+        "s": "nicholas ferrar",
+        "p": "died_in",
+        "o": "1657"
+      },
+      {
+        "s": "five",
+        "p": "counts",
+        "o": "drafts"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "was_recovering",
+        "o": "recovered"
+      },
+      {
+        "s": "the church",
+        "p": "was_recovering",
+        "o": "restored in 1853"
+      },
+      {
+        "s": "the dry salvages",
+        "p": "is_fourth_and_final_poem_of",
+        "o": "third four quartets poem"
+      },
+      {
+        "s": "mystical nature of the poem",
+        "p": "characterized_by",
+        "o": "thought cannot be prized free from the controlled and beautiful language"
+      },
+      {
+        "s": "poem",
+        "p": "uses",
+        "o": "combined image of fire and pentecostal fire"
+      },
+      {
+        "s": "delmore schwartz",
+        "p": "describes",
+        "o": "mixed emotions"
+      },
+      {
+        "s": "such a state",
+        "p": "exists_in",
+        "o": "purgatorio 26"
+      },
+      {
+        "s": "different times",
+        "p": "merge",
+        "o": "different personalities"
+      },
+      {
+        "s": "little gidding",
+        "p": "is_fourth_and_final_poem_of",
+        "o": "four quartets"
+      },
+      {
+        "s": "dancing",
+        "p": "appears_throughout",
+        "o": "yeats's poetry"
+      },
+      {
+        "s": "little gidding",
+        "p": "describes",
+        "o": "eternalness of the present"
+      },
+      {
+        "s": "letter dated 27 august 1942",
+        "p": "addressed_to",
+        "o": "john hayward"
+      },
+      {
+        "s": "four quartets",
+        "p": "discusses",
+        "o": "salvation"
+      },
+      {
+        "s": "themes of the poem",
+        "p": "closer_to",
+        "o": "buddhism"
+      },
+      {
+        "s": "mystical nature of the poem",
+        "p": "characterized_by",
+        "o": "belief and words are one"
+      },
+      {
+        "s": "he",
+        "p": "set_aside",
+        "o": "poem"
+      },
+      {
+        "s": "discussion",
+        "p": "is_about",
+        "o": "things unaccomplished"
+      },
+      {
+        "s": "compilation of various poets",
+        "p": "includes",
+        "o": "yeats"
+      },
+      {
+        "s": "e. m. forster",
+        "p": "considers_unsatisfactory_as_seer",
+        "o": "t. s. eliot"
+      },
+      {
+        "s": "fire",
+        "p": "is_primary_element_of",
+        "o": "four classical elements"
+      },
+      {
+        "s": "ghost",
+        "p": "is_combination_of",
+        "o": "various poets and literary figures"
+      },
+      {
+        "s": "guido guinizelli",
+        "p": "seeks",
+        "o": "such a state"
+      },
+      {
+        "s": "the particular vice",
+        "p": "took_to_Hell",
+        "o": "brunetto latini"
+      },
+      {
+        "s": "analysis of the four classical elements",
+        "p": "analyzes",
+        "o": "water"
+      },
+      {
+        "s": "dante",
+        "p": "addresses_as",
+        "o": "brunetto latini"
+      },
+      {
+        "s": "roger scruton",
+        "p": "is_about",
+        "o": "little gidding"
+      },
+      {
+        "s": "e. m. forster",
+        "p": "did_not_like",
+        "o": "t. s. eliot"
+      },
+      {
+        "s": "ghost",
+        "p": "was_revised_to",
+        "o": "you"
+      },
+      {
+        "s": "some readers",
+        "p": "identify_with",
+        "o": "yeats"
+      },
+      {
+        "s": "mixed emotions",
+        "p": "about",
+        "o": "religiosity of the poem"
+      },
+      {
+        "s": "he",
+        "p": "left_in",
+        "o": "september 1942"
+      },
+      {
+        "s": "the fourth section of the poem",
+        "p": "is",
+        "o": "his greatest achievement in the four quartets"
+      },
+      {
+        "s": "salvation",
+        "p": "is_goal_of",
+        "o": "goal of humankind"
+      },
+      {
+        "s": "he",
+        "p": "started",
+        "o": "starting the poem"
+      },
+      {
+        "s": "little gidding",
+        "p": "intended_to_conclude",
+        "o": "four quartets"
+      },
+      {
+        "s": "four quartets",
+        "p": "discusses",
+        "o": "time"
+      },
+      {
+        "s": "little gidding",
+        "p": "deals_with",
+        "o": "past events"
+      },
+      {
+        "s": "second section",
+        "p": "contains",
+        "o": "ghost"
+      },
+      {
+        "s": "the ferrar household",
+        "p": "used",
+        "o": "the book of common prayer"
+      },
+      {
+        "s": "compilation of various poets",
+        "p": "includes",
+        "o": "dante"
+      },
+      {
+        "s": "ghost",
+        "p": "states_solution_for",
+        "o": "problematic condition of humanity"
+      },
+      {
+        "s": "e. m. forster",
+        "p": "responded_to",
+        "o": "eliot's emphasis on pain"
+      },
+      {
+        "s": "compilation of various poets",
+        "p": "includes",
+        "o": "swift"
+      },
+      {
+        "s": "it",
+        "p": "was_delayed_by",
+        "o": "delay for over a year"
+      },
+      {
+        "s": "small anglican community",
+        "p": "scattered_during",
+        "o": "english civil war"
+      },
+      {
+        "s": "delmore schwartz",
+        "p": "mentions",
+        "o": "buddhist images"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "achieved",
+        "o": "mystical nature of the poem"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "wanted_to_finish",
+        "o": "starting the poem"
+      },
+      {
+        "s": "snow",
+        "p": "transitions_into",
+        "o": "analysis of the four classical elements"
+      },
+      {
+        "s": "sacrifice",
+        "p": "is_necessary_for",
+        "o": "individual"
+      },
+      {
+        "s": "individual",
+        "p": "died_in",
+        "o": "life"
+      },
+      {
+        "s": "humanity",
+        "p": "chooses_between",
+        "o": "bombing of london"
+      },
+      {
+        "s": "poem",
+        "p": "describes",
+        "o": "english civil war"
+      },
+      {
+        "s": "critics",
+        "p": "classify_as",
+        "o": "little gidding"
+      },
+      {
+        "s": "air raids on great britain during world war ii",
+        "p": "occurred_during",
+        "o": "world war ii"
+      },
+      {
+        "s": "the effect of the whole",
+        "p": "is_desired_to_be",
+        "o": "purgatorial"
+      },
+      {
+        "s": "little gidding",
+        "p": "deals_with",
+        "o": "future"
+      },
+      {
+        "s": "humanity",
+        "p": "chooses_between",
+        "o": "destruction"
+      },
+      {
+        "s": "compound image",
+        "p": "discusses_connection_with",
+        "o": "holy places"
+      },
+      {
+        "s": "little gidding community",
+        "p": "was_built_for_living_on",
+        "o": "monastic lines"
+      },
+      {
+        "s": "the shirt of nessus",
+        "p": "describes",
+        "o": "a shirt that burns its wearer"
+      },
+      {
+        "s": "ghost",
+        "p": "is_stuck_between",
+        "o": "between worlds"
+      },
+      {
+        "s": "poem",
+        "p": "was_first_published_in",
+        "o": "october new english weekly"
+      },
+      {
+        "s": "reference to that canto",
+        "p": "intended_to_conclude",
+        "o": "explicit"
+      },
+      {
+        "s": "swimming in fire",
+        "p": "is_referenced_in",
+        "o": "purgatorio 26"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "merge",
+        "o": "purgation through fire"
+      },
+      {
+        "s": "malcolm cowley",
+        "p": "appreciated",
+        "o": "many of the passages"
+      },
+      {
+        "s": "english civil war",
+        "p": "occurred_in",
+        "o": "1646"
+      },
+      {
+        "s": "i",
+        "p": "wishes_for",
+        "o": "the effect of the whole"
+      },
+      {
+        "s": "little gidding",
+        "p": "claims_is_necessary_for",
+        "o": "understanding this unity"
+      },
+      {
+        "s": "little gidding",
+        "p": "explores",
+        "o": "humanity's place within time"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "wanted_to_get_rid_of",
+        "o": "brunetto"
+      },
+      {
+        "s": "fire",
+        "p": "symbolizes",
+        "o": "purification and purgation"
+      },
+      {
+        "s": "compound image",
+        "p": "discusses_connection_with",
+        "o": "pentecost"
+      },
+      {
+        "s": "reference to swimming in fire",
+        "p": "occurs_at_end_of",
+        "o": "purgatorio 26"
+      },
+      {
+        "s": "humanity's flawed understanding of life",
+        "p": "leads_to",
+        "o": "cycle of warfare"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "explained",
+        "o": "changed the wording"
+      },
+      {
+        "s": "e. m. forster",
+        "p": "mentions",
+        "o": "schoolmaster"
+      },
+      {
+        "s": "brunetto latini",
+        "p": "condemned_to",
+        "o": "hell"
+      },
+      {
+        "s": "discussion",
+        "p": "is_about",
+        "o": "regret for past events"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "was_not_working_on",
+        "o": "starting the poem"
+      },
+      {
+        "s": "humankind",
+        "p": "can_escape",
+        "o": "living hell"
+      },
+      {
+        "s": "dante's terza rima style",
+        "p": "is_used_in",
+        "o": "poem"
+      },
+      {
+        "s": "suffering",
+        "p": "needed_for",
+        "o": "all of society"
+      },
+      {
+        "s": "little gidding",
+        "p": "summarises",
+        "o": "eliot's views"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "visited",
+        "o": "the site"
+      },
+      {
+        "s": "ghost",
+        "p": "discusses",
+        "o": "change"
+      },
+      {
+        "s": "he",
+        "p": "does_not_wish_to_put_into_Hell",
+        "o": "anybody else"
+      },
+      {
+        "s": "little gidding community",
+        "p": "was_dispersed_during",
+        "o": "puritan forces"
+      },
+      {
+        "s": "thought cannot be prized free from the controlled and beautiful language",
+        "p": "depends_on",
+        "o": "controlled and beautiful language"
+      },
+      {
+        "s": "purgatorial",
+        "p": "is_more_appropriate_than",
+        "o": "more appropriate"
+      },
+      {
+        "s": "it",
+        "p": "was_first_published_in",
+        "o": "september 1942"
+      },
+      {
+        "s": "little gidding",
+        "p": "was_home_of",
+        "o": "small anglican community"
+      },
+      {
+        "s": "little gidding",
+        "p": "emphasizes",
+        "o": "fire"
+      },
+      {
+        "s": "pain",
+        "p": "caused_by",
+        "o": "bullies"
+      },
+      {
+        "s": "third four quartets poem",
+        "p": "mention_location_of",
+        "o": "the original christian community"
+      },
+      {
+        "s": "small anglican community",
+        "p": "was_dispersed_during",
+        "o": "english civil war"
+      },
+      {
+        "s": "rose garden at the end of little gidding",
+        "p": "begins_after",
+        "o": "burnt norton"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "merge",
+        "o": "dancing"
+      },
+      {
+        "s": "ghost",
+        "p": "joins",
+        "o": "the poet"
+      },
+      {
+        "s": "turning away from god",
+        "p": "leads_to",
+        "o": "cycle of warfare"
+      },
+      {
+        "s": "religious renewal",
+        "p": "merges_with",
+        "o": "london air raids"
+      },
+      {
+        "s": "the fourth section of the poem",
+        "p": "costs_trouble_and_vexation_to",
+        "o": "t. s. eliot"
+      },
+      {
+        "s": "four quartets",
+        "p": "discusses",
+        "o": "perspective"
+      },
+      {
+        "s": "starting the poem",
+        "p": "discusses",
+        "o": "time"
+      },
+      {
+        "s": "the poet",
+        "p": "describes",
+        "o": "humanity's flawed understanding of life"
+      },
+      {
+        "s": "visionary figure",
+        "p": "has_become",
+        "o": "more definite"
+      },
+      {
+        "s": "english civil war",
+        "p": "involved",
+        "o": "parliamentarians and royalists"
+      },
+      {
+        "s": "swimming",
+        "p": "transformed_into",
+        "o": "dancing"
+      },
+      {
+        "s": "the journey",
+        "p": "is_made_circular",
+        "o": "circular journey"
+      },
+      {
+        "s": "dante",
+        "p": "meets",
+        "o": "brunetto latini"
+      },
+      {
+        "s": "malcolm cowley",
+        "p": "emphasizes",
+        "o": "mystical nature of the poem"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "merge",
+        "o": "yeats's poetic themes"
+      },
+      {
+        "s": "he",
+        "p": "is_imputed_with",
+        "o": "the particular vice"
+      },
+      {
+        "s": "humanity",
+        "p": "chooses_between",
+        "o": "redemption"
+      },
+      {
+        "s": "the poet",
+        "p": "are_found_in",
+        "o": "purgatorio 26"
+      },
+      {
+        "s": "snow",
+        "p": "provokes_desire_for",
+        "o": "spiritual life"
+      },
+      {
+        "s": "understanding this unity",
+        "p": "is_necessary_for",
+        "o": "salvation"
+      },
+      {
+        "s": "little gidding",
+        "p": "emphasizes",
+        "o": "pentecostal fire"
+      },
+      {
+        "s": "dancing",
+        "p": "merges_with",
+        "o": "purgation through fire"
+      },
+      {
+        "s": "different times",
+        "p": "allow",
+        "o": "communication and connection with the dead"
+      },
+      {
+        "s": "compound image",
+        "p": "discusses_connection_with",
+        "o": "communion with the dead"
+      },
+      {
+        "s": "the problems with the poem",
+        "p": "stemmed_from",
+        "o": "his own inability to write"
+      },
+      {
+        "s": "four quartets",
+        "p": "discusses",
+        "o": "humanity"
+      },
+      {
+        "s": "compound image",
+        "p": "discusses_connection_with",
+        "o": "holy spirit"
+      },
+      {
+        "s": "recognising the lessons of the past",
+        "p": "overcomes",
+        "o": "cycle of warfare"
+      },
+      {
+        "s": "each generation",
+        "p": "is_seemingly_united",
+        "o": "understanding this unity"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "wrote_letter_to",
+        "o": "john hayward"
+      },
+      {
+        "s": "analysis of the four classical elements",
+        "p": "analyzes",
+        "o": "air"
+      },
+      {
+        "s": "themes",
+        "p": "is_section_of",
+        "o": "context"
+      },
+      {
+        "s": "little gidding",
+        "p": "emphasizes",
+        "o": "purification and purgation"
+      },
+      {
+        "s": "humanity",
+        "p": "chooses_between",
+        "o": "holy spirit"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "believed_about",
+        "o": "renewal"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "stayed_in",
+        "o": "shamley green, surrey"
+      },
+      {
+        "s": "first draft was written",
+        "p": "preceded",
+        "o": "poem"
+      },
+      {
+        "s": "ghost",
+        "p": "begins_talking_to",
+        "o": "the narrator of the poem"
+      },
+      {
+        "s": "ghost",
+        "p": "discusses",
+        "o": "art in general"
+      },
+      {
+        "s": "the church",
+        "p": "was_recovering",
+        "o": "restored in 1714"
+      },
+      {
+        "s": "dancing",
+        "p": "within",
+        "o": "purgatorial flames"
+      },
+      {
+        "s": "themes of the poem",
+        "p": "closer_to",
+        "o": "anglicanism"
+      },
+      {
+        "s": "ghost",
+        "p": "discusses",
+        "o": "humanity's flawed understanding of life"
+      },
+      {
+        "s": "delmore schwartz",
+        "p": "admired_lines_in",
+        "o": "little gidding"
+      },
+      {
+        "s": "he",
+        "p": "does_not_wish_to_put_into_Hell",
+        "o": "yeats"
+      },
+      {
+        "s": "the community",
+        "p": "represent",
+        "o": "religious community"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "visited_in_time",
+        "o": "september 1942"
+      },
+      {
+        "s": "god's love",
+        "p": "allows_redemption_of",
+        "o": "humankind"
+      },
+      {
+        "s": "combined image of fire and pentecostal fire",
+        "p": "emphasises_need_for",
+        "o": "purification and purgation"
+      },
+      {
+        "s": "ghost",
+        "p": "represent",
+        "o": "the poets of the past"
+      },
+      {
+        "s": "regret for past events",
+        "p": "concerns",
+        "o": "past events"
+      },
+      {
+        "s": "purgation through fire",
+        "p": "through",
+        "o": "fire"
+      },
+      {
+        "s": "he",
+        "p": "parallels",
+        "o": "working on society"
+      },
+      {
+        "s": "the church",
+        "p": "is_centre_of",
+        "o": "the community"
+      },
+      {
+        "s": "small anglican community",
+        "p": "established_by",
+        "o": "nicholas ferrar"
+      },
+      {
+        "s": "different personalities",
+        "p": "allow",
+        "o": "communication and connection with the dead"
+      },
+      {
+        "s": "ghost",
+        "p": "was_originally_addressed_as",
+        "o": "ser brunetto"
+      },
+      {
+        "s": "delay for over a year",
+        "p": "caused_by",
+        "o": "eliot's declining health"
+      },
+      {
+        "s": "he",
+        "p": "parallels",
+        "o": "work in language"
+      },
+      {
+        "s": "ghost",
+        "p": "recommends",
+        "o": "purgation through fire"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "merge",
+        "o": "dante's poetic themes"
+      },
+      {
+        "s": "the ferrar household",
+        "p": "lived",
+        "o": "christian life"
+      },
+      {
+        "s": "he",
+        "p": "had",
+        "o": "too little preparation"
+      },
+      {
+        "s": "reception",
+        "p": "is",
+        "o": "reception"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "is_as",
+        "o": "the poet"
+      },
+      {
+        "s": "analysis of the four classical elements",
+        "p": "analyzes",
+        "o": "fire"
+      },
+      {
+        "s": "he",
+        "p": "believed_lay_with",
+        "o": "the problems with the poem"
+      },
+      {
+        "s": "the ferrar household",
+        "p": "followed",
+        "o": "high church principles"
+      },
+      {
+        "s": "analysis of the four classical elements",
+        "p": "analyzes",
+        "o": "earth"
+      },
+      {
+        "s": "four quartets",
+        "p": "expresses",
+        "o": "eliot's views"
+      },
+      {
+        "s": "he",
+        "p": "was_dissatisfied_with",
+        "o": "first draft"
+      },
+      {
+        "s": "religious renewal",
+        "p": "merges_with",
+        "o": "constant fighting and destruction within the world"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "started_writing",
+        "o": "little gidding"
+      },
+      {
+        "s": "four quartets",
+        "p": "is_by",
+        "o": "t. s. eliot"
+      },
+      {
+        "s": "malcolm cowley",
+        "p": "describes",
+        "o": "mixed emotions"
+      },
+      {
+        "s": "rose garden at the end of little gidding",
+        "p": "corresponds_to",
+        "o": "image that begins burnt norton"
+      },
+      {
+        "s": "small anglican community",
+        "p": "established_in",
+        "o": "1626"
+      },
+      {
+        "s": "little gidding",
+        "p": "describes",
+        "o": "history exists in a pattern"
+      },
+      {
+        "s": "life",
+        "p": "begins_after",
+        "o": "renewal"
+      },
+      {
+        "s": "e. m. forster",
+        "p": "mentions",
+        "o": "priest"
+      },
+      {
+        "s": "ghost",
+        "p": "is_combination_of",
+        "o": "many literary figures"
+      },
+      {
+        "s": "the poet",
+        "p": "advocates",
+        "o": "recognising the lessons of the past"
+      },
+      {
+        "s": "air raids on great britain during world war ii",
+        "p": "precipitated",
+        "o": "starting the poem"
+      },
+      {
+        "s": "the fourth section of the poem",
+        "p": "more_than",
+        "o": "any passage of the same length he ever wrote"
+      },
+      {
+        "s": "he",
+        "p": "had",
+        "o": "writing it too quickly"
+      },
+      {
+        "s": "religious community",
+        "p": "ended_with_death_of",
+        "o": "nicholas ferrar"
+      },
+      {
+        "s": "narrator",
+        "p": "meets",
+        "o": "ghost"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "began_to_feel_compelled_to",
+        "o": "feel compelled to finish it"
+      },
+      {
+        "s": "purgation by fire",
+        "p": "uses",
+        "o": "fire"
+      },
+      {
+        "s": "fire",
+        "p": "is_discussed_in_relationship_to",
+        "o": "the shirt of nessus"
+      },
+      {
+        "s": "little gidding",
+        "p": "focuses_on",
+        "o": "unity of past, present, and future"
+      },
+      {
+        "s": "london air raids",
+        "p": "merges_with",
+        "o": "constant fighting and destruction within the world"
+      },
+      {
+        "s": "guido guinizelli",
+        "p": "influenced",
+        "o": "dante"
+      },
+      {
+        "s": "starting the poem",
+        "p": "discusses",
+        "o": "winter"
+      },
+      {
+        "s": "pentecostal fire",
+        "p": "symbolizes",
+        "o": "purification and purgation"
+      },
+      {
+        "s": "small anglican community",
+        "p": "established_in",
+        "o": "17th century"
+      },
+      {
+        "s": "little gidding",
+        "p": "is_fourth_and_final_poem_of",
+        "o": "third four quartets poem"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "had_no_direct_connection_to",
+        "o": "the original christian community"
+      },
+      {
+        "s": "starting the poem",
+        "p": "mentions",
+        "o": "summer"
+      },
+      {
+        "s": "ghost",
+        "p": "is_compilation_of",
+        "o": "compilation of various poets"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "attempted_to_help",
+        "o": "the world"
+      },
+      {
+        "s": "holy spirit",
+        "p": "juxtaposed_with",
+        "o": "air raids on london"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "experienced",
+        "o": "declining health"
+      },
+      {
+        "s": "first draft",
+        "p": "completed_in",
+        "o": "july 1941"
+      },
+      {
+        "s": "individual",
+        "p": "is_reborn_into",
+        "o": "rebirth"
+      },
+      {
+        "s": "he",
+        "p": "parallels",
+        "o": "working on the soul"
+      },
+      {
+        "s": "air raids on great britain during world war ii",
+        "p": "occurred_in",
+        "o": "great britain"
+      },
+      {
+        "s": "the title",
+        "p": "refers_to",
+        "o": "small anglican community"
+      },
+      {
+        "s": "e. m. forster",
+        "p": "quotes",
+        "o": "fire and the rose are one"
+      },
+      {
+        "s": "small anglican community",
+        "p": "located_in",
+        "o": "huntingdonshire"
+      },
+      {
+        "s": "past events",
+        "p": "exists_in",
+        "o": "a pattern"
+      },
+      {
+        "s": "depiction of guido guinizelli",
+        "p": "depicts",
+        "o": "guido guinizelli"
+      },
+      {
+        "s": "t. s. eliot",
+        "p": "started_working_on_again",
+        "o": "starting the poem"
+      }
+    ]
+  }
+}

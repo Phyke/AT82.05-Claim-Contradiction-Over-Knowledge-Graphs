@@ -1,6 +1,11 @@
 .env
 .claude
+.firecrawl
 progress-report
+final-report
+
+# Fine-tuned model weights (too large for GitHub)
+fine-tuning/models/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
