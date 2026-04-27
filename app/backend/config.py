@@ -19,12 +19,20 @@ class Settings(BaseSettings):
     llm_model_openai_gpt_5_4_mini: str = "gpt-5.4-mini"
 
     default_model: str = "claude-sonnet-4-6"
+    triples_extraction_model: str = "claude-opus-4-7"
 
-    # Reserved for future KG integration; not used in current iteration.
-    # Optional so the backend boots without Neo4j running.
     neo4j_uri: str = "bolt://localhost:7687"
     neo4j_user: str = "neo4j"
     neo4j_password: SecretStr | None = None
+
+    nli_checkpoint_path: str = "../../experiments/fine-tuning/models/nli_binary"
+    nli_threshold: float = 0.5
+    nli_batch_size: int = 32
+    nli_max_len: int = 256
+
+    sbert_model: str = "sentence-transformers/all-MiniLM-L6-v2"
+    embed_dim: int = 384
+    vector_top_k: int = 20
 
 
 settings = Settings()

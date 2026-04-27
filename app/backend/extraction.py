@@ -14,14 +14,22 @@ class ContradictionPair(BaseModel):
     sentence_a: str
     sentence_b: str
     explanation: str
+    contradiction_type: str = "other"
 
 
 SYSTEM_PROMPT = """You are a contradiction detector. Read the user's document and identify pairs of sentences within it that contradict each other.
 
-Output format: emit ONE JSON object per line in JSONL format. Each object MUST have exactly these three keys:
+Output format: emit ONE JSON object per line in JSONL format. Each object MUST have exactly these four keys:
 - "sentence_a": the first sentence (string, copied or closely paraphrased from the document)
 - "sentence_b": the second sentence that contradicts it (string)
 - "explanation": a brief explanation of why they contradict (string)
+- "contradiction_type": EXACTLY ONE of these strings:
+    - "negation": one sentence affirms a relation, the other negates it (polarity flip).
+    - "numerical": same fact with different numbers/quantities/dates.
+    - "antonymic": uses antonyms or opposite adjectives/states.
+    - "factual": different facts/names/identities/places asserted for the same entity.
+    - "structural": same predicate but different argument structure or roles.
+    - "other": contradiction that does not fit the above.
 
 Strict rules:
 - Output ONLY JSONL. No preamble, no postamble, no markdown code fences, no commentary.
